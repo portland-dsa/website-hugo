@@ -1,3 +1,17 @@
-@import 'include/variables';
+@import
+'include/variables',
+'include/mixins',
+'include/forms'
+;
 
-@import 'base';
+@import
+'base',
+'layout'
+;
+
+@import 'pages/home';
+
+@import
+'shared/header',
+'shared/footer'
+;
