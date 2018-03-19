@@ -1,3 +1,5 @@
 node_modules/
-dist/
-static/
+static/assets/css/*
+static/assets/fonts/*
+static/assets/js/*
+public/
