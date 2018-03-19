@@ -24,7 +24,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run webpack-build",
+    "build": "npm run webpack-build && hugo",
     "dev": "npm run webpack-dev",
     "webpack-build": "./node_modules/.bin/webpack",
     "webpack-dev": "./node_modules/.bin/webpack --watch --progress --colors"
