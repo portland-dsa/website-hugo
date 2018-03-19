@@ -54,7 +54,7 @@ export default {
   },
 
   output: {
-    path: path.join(__dirname, 'web', 'assets', 'js'),
+    path: path.join(__dirname, 'dist', 'assets', 'js'),
     filename: '[name].js'
   }
 }
