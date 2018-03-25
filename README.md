@@ -4,13 +4,12 @@
 > A shiny new Portland DSA website, built using [Hugo](https://gohugo.io/)!
 
 ## The Portland DSA website team
-- Gina Giampaolo
-- Joel Coreson
-- Andy Pressman
+- [Gina Giampaolo](https://github.com/whoisgina)
+- [Joel Coreson](https://github.com/fumb1e)
+- [Andy Pressman](https://github.com/andypressman)
 
 ### License
 This project is licensed under the terms of the MIT license.
-
 
 ## Technology requirements
 
