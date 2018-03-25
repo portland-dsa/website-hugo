@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.Language.Lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ block "title" . }}
+      {{ .Site.Title }}
+    {{ end }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="stylesheet" href="./assets/css/app.css"/>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  </head>
+
+  <body>
+    <header class="header--isClosedMenu">
+      <div class="nameplate">
+        <div class="nameplate__logo"></div>
+        <h1 class="nameplate__title">
+          <a href="static_home.html">
+          Democratic Socialists <span class="forcedLinebreak"></span> of America<br>
+          <span class="nameplate__title__cityState">Portland, Oregon</span>
+          </a>
+        </h1>
+      </div>
+
+      <nav class="nav">
+        <a class="nav__toggleButton">Menu</a>
+        <ul class="nav__itemContainer">
+        <li class="nav__item mobileOnly"><a class="nav__itemLink" href="static_home.html">Home</a></li>
+        <li class="nav__item"><a class="nav__itemLink" href="static_who.html">Who we are</a></li>
+        <li class="nav__item"><a class="nav__itemLink" href="static_what.html">What is democratic socialism</a></li>
+        <li class="nav__item"><a class="nav__itemLink" href="static_calendar.html">Calendar</a></li>
+        <li class="nav__item"><a class="nav__itemLink" href="static_join.html">Join us</a></li>
+        </ul/>
+      </nav>
+    </header>
+
+    {{ block "main" . }}
+    {{ end }}
+
+    {{ block "footer" . }}
+    <footer class="footer">
+      <div class="footer__nameAndEmail">
+        Democratic Socialists of America<br>
+        Portland, Oregon Chapter<br>
+        <a href="mailto:info@portlanddsa.org">info@PortlandDSA.org</a>
+      </div>
+
+      <div class="socialLinks--footer">
+        <ul class="socialLinks--footer__itemContainer">
+        <li class="socialLinks--footer__item"><a class="socialLinks--footer__item__link--twitter"   href="https://twitter.com/portlanddsa">Twitter</a></li>
+        <li class="socialLinks--footer__item"><a class="socialLinks--footer__item__link--facebook"  href="https://www.facebook.com/PortlandDSA/">Facebook</a></li>
+        <li class="socialLinks--footer__item"><a class="socialLinks--footer__item__link--instagram" href="https://www.instagram.com/portlanddsa/">Instagram</a></li>
+        </ul>
+      </div>
+    </footer>
+    {{ end }}
+  <script src="./assets/js/app.js"></script>
+
+  <!-- This example script requires modern JavaScript and will not work on IE11. For legacy browser support, use function expressions (function () {}) in place of the arrow functions (() => {}), or use a transpiler like Babel. -->
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+  </body>
+</html>
+

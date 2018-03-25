@@ -1,4 +1,4 @@
-{{ partial "header" . }}
+{{ define "main" }}
 <main class="main">
 
 <div class="main__greeting">{{ .Params.callout }}</a></div>
@@ -53,6 +53,4 @@
 </div><!-- /topicStripsContainer -->
 
 </main>
-
-{{ partial "footer" . }}
-
+{{ end }}
