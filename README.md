@@ -1,6 +1,5 @@
-# 🌹🌹🌹
+🌹🌹🌹
 # Portland Democratic Socialists of America
-
 > A shiny new Portland DSA website, built using [Hugo](https://gohugo.io/)!
 
 ## The Portland DSA website team
@@ -8,15 +7,15 @@
 - [Joel Coreson](https://github.com/fumb1e)
 - [Andy Pressman](https://github.com/andypressman)
 
-### License
+## License
 This project is licensed under the terms of the MIT license.
 
-## Technology requirements
+### Technology requirements
 
 - [Hugo](https://gohugo.io/)
 - [Node & npm](https://docs.npmjs.com/getting-started/installing-node)
 
-## Setup
+### Setup
 Clone the repo to wherever your heart desires. Your `/sites` folder is always a good bet.
 
 ```
@@ -56,8 +55,7 @@ Running `$ hugo` in the root of the project will generate the website to the `pu
 ### Production development
 This repo is continuously integrated with Netlify and rebuilds and deploys the site whenever a commit is pushed to `master`. You can view the site [here](http://portland-dsa.netlify.com).
 
-✊
-
 ### Questions?
-_Read-me by [whoisgina](https://github.com/whoisgina).
+Read-me by [whoisgina](https://github.com/whoisgina). Contact her with questions!
 
+✊
