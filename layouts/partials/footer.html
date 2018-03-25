@@ -14,5 +14,18 @@
   </div>
 </footer>
   <script src="./assets/js/app.js"></script>
+
+  <!-- This example script requires modern JavaScript and will not work on IE11. For legacy browser support, use function expressions (function () {}) in place of the arrow functions (() => {}), or use a transpiler like Babel. -->
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
   </body>
 </html>

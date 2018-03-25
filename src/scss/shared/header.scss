@@ -26,7 +26,7 @@
 @mixin shared__logo( $width, $height ) {
   width: $width;
   height: $height;
-  background: $colorRed url("/src/images/portland-dsa-logo.svg") no-repeat center center;
+  background: $colorRed url("/images/portland-dsa-logo.svg") no-repeat center center;
   background-size: $width $height;
 }
 
