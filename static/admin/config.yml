@@ -4,7 +4,6 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
-
 # The publish_mode option allows you to enable “Editorial Workflow” mode for more control over the
 # content publishing phases. All unpublished entries will be arranged in a board according to their
 # status, and they can be further reviewed and edited before going live. More information:
@@ -27,6 +26,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Callout, name: title, widget: text}
           - label: "Feature: who we are"
             name: "feature-who"
+            required: "false"
             widget: "object"
             fields:
               - {label: "Image", name: "feature-image", widget: "image"}
@@ -34,6 +34,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: "Content", name: "feature-content", widget: "text"}
           - label: "Feature: what's democratic socialism"
             name: "feature-what"
+            required: "false"
             widget: "object"
             fields:
               - {label: "Image", name: "feature-image", widget: "image"}
@@ -41,6 +42,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: "Content", name: "feature-content", widget: "text"}
           - label: "Feature: upcoming events"
             name: "feature-events"
+            required: "false"
             widget: "object"
             fields:
               - {label: "Image", name: "feature-image", widget: "image"}
@@ -48,6 +50,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: "Content", name: "feature-content", widget: "text"}
           - label: "Feature: join"
             name: "feature-join"
+            required: "false"
             widget: "object"
             fields:
               - {label: "Image", name: "feature-image", widget: "image"}
