@@ -25,8 +25,29 @@ collections: # A list of collections the CMS should be able to edit
         name: "home"
         fields:
           - {label: Callout, name: title, widget: text}
-          - label: "Feature"
-            name: "feature"
+          - label: "Feature: who we are"
+            name: "feature-who"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "feature-image", widget: "image"}
+              - {label: "Header", name: "feature-header", widget: "string"}
+              - {label: "Content", name: "feature-content", widget: "text"}
+          - label: "Feature: what's democratic socialism"
+            name: "feature-what"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "feature-image", widget: "image"}
+              - {label: "Header", name: "feature-header", widget: "string"}
+              - {label: "Content", name: "feature-content", widget: "text"}
+          - label: "Feature: upcoming events"
+            name: "feature-events"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "feature-image", widget: "image"}
+              - {label: "Header", name: "feature-header", widget: "string"}
+              - {label: "Content", name: "feature-content", widget: "text"}
+          - label: "Feature: join"
+            name: "feature-join"
             widget: "object"
             fields:
               - {label: "Image", name: "feature-image", widget: "image"}
