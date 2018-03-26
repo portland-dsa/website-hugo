@@ -72,14 +72,14 @@ footer ul {
     list-style: none
   }
 
-  // &__item {
-  //   @each $account in (twitter facebook instagram) {
-  //     &__link--#{$account} {
-  //       @include backgroundImageReplacementBlock( $iconWidth, $iconHeight, '../src/images/#{$account}.svg' );
-  //       margin: 0 0.5em;
-  //     }
-  //   }
-  // }
+  &__item {
+    @each $account in (twitter facebook instagram) {
+      &__link--#{$account} {
+        @include backgroundImageReplacementBlock( $iconWidth, $iconHeight, '/assets/images/#{$account}.svg' );
+        margin: 0 0.5em;
+      }
+    }
+  }
 }
 
 .center {
