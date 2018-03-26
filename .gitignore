@@ -1,2 +1,6 @@
 node_modules/
 public/
+static/assets/css/application.css
+static/assets/js/application.js
+static/assets/fonts/
+.DS_Store
