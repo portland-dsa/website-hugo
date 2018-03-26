@@ -28,24 +28,23 @@ $ npm install
 
 ## Local development
 
-We're using Webpack to compile our SCSS and JS. To watch the `/src` directories for changes and compile, run:
+
+To run `webpack` (which builds CSS and JS for the site) and `hugo`
+simultaneously, navigate to the project directory in your terminal and type:
 
 ```
 $ npm run dev
 ```
 
-At the same time, run a server with Hugo to generate the site and watch templates and static files for changes:
-
-```
-$ hugo server
-```
-
-Hugo will provide an address at which you can view the site as you work. It will also use LiveReload if you have it installed. ⚡
+Hugo will provide an address at which you can view the site as you work
+(localhost:1313 by default). It will also use LiveReload if you have it installed. ⚡
 
 Running `$ hugo` in the root of the project will generate the website to the `public/` directory.
 
 ## Production development
-This repo is continuously integrated with Netlify and rebuilds and deploys the site whenever a commit is pushed to `master`. You can view the site [here](http://portland-dsa.netlify.com).
+This repo is continuously integrated with Netlify and rebuilds and deploys the
+site whenever a commit is pushed to `master`. You can view the site
+[here](http://portland-dsa.netlify.com).
 
 ### Questions?
 Read-me by [whoisgina](https://github.com/whoisgina). Contact her with questions!

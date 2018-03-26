@@ -23,9 +23,10 @@
     "webpack": "^3.11.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run webpack-build && hugo",
-    "dev": "npm run webpack-dev",
+    "build": "npm run webpack-build && npm run hugo-build",
+    "dev": "./node_modules/.bin/concurrently --kill-others \"npm run webpack-dev\" \"npm run hugo-server\"",
+    "hugo-build": "hugo",
+    "hugo-server": "hugo server --cleanDestinationDir --quiet",
     "webpack-build": "./node_modules/.bin/webpack",
     "webpack-dev": "./node_modules/.bin/webpack --watch --progress --colors"
   },
