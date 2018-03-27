@@ -29,9 +29,9 @@ collections:
             name: "blocks"
             widget: "list"
             fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Image", name: "image", widget: "image"}
-              - {label: "Text", name: "text", widget: "markdown"}
+              - {label: "Title", name: "blockTitle", widget: "string"}
+              - {label: "Image", name: "blockImage", widget: "image"}
+              - {label: "Text", name: "blockContent", widget: "markdown"}
   - label: "Test"
     name: "test"
     folder: "content/test"
