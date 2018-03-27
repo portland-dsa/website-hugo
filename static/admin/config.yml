@@ -28,7 +28,7 @@ collections:
           - label: "Blocks"
             name: "blocks"
             widget: "list"
-            field:
+            fields:
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Image", name: "image", widget: "image"}
               - {label: "Text", name: "text", widget: "markdown"}
