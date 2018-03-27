@@ -1,0 +1,66 @@
+# This document was created by following this: https://www.netlifycms.org/docs/add-to-your-site/
+
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+# The publish_mode option allows you to enable “Editorial Workflow” mode for more control over the
+# content publishing phases. All unpublished entries will be arranged in a board according to their
+# status, and they can be further reviewed and edited before going live. More information:
+# https://www.netlifycms.org/docs/configuration-options/#publish-mode
+publish_mode: editorial_workflow
+
+# Hugo stores its static files in a subfolder, so we have to set `public_folder` to specify where
+# the assets can be found on the public site.
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "site/content/_index.md"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - {label: Callout, name: title, widget: text}
+          - label: "Feature: who we are"
+            name: "feature-who"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "feature-image", widget: "image"}
+              - {label: "Header", name: "feature-header", widget: "string"}
+              - {label: "Content", name: "feature-content", widget: "text"}
+          - label: "Feature: what's democratic socialism"
+            name: "feature-what"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "feature-image", widget: "image"}
+              - {label: "Header", name: "feature-header", widget: "string"}
+              - {label: "Content", name: "feature-content", widget: "text"}
+          - label: "Feature: upcoming events"
+            name: "feature-events"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "feature-image", widget: "image"}
+              - {label: "Header", name: "feature-header", widget: "string"}
+              - {label: "Content", name: "feature-content", widget: "text"}
+          - label: "Feature: join"
+            name: "feature-join"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "feature-image", widget: "image"}
+              - {label: "Header", name: "feature-header", widget: "string"}
+              - {label: "Content", name: "feature-content", widget: "text"}
+      - file: "site/content/about/_index.md"
+        label: "Who we are"
+        name: "about"
+        fields:
+          - {label: Feature Image, name: feature-image, widget: image}
+          - {label: Callout, name: title, widget: text}
+      - file: "site/content/democratic-socialism/_index.md"
+        label: "What is democratic socialism"
+        name: "democratic-socialism"
+        fields:
+          - {label: Feature Image, name: feature-image, widget: image}
+          - {label: Callout, name: title, widget: text}

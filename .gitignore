@@ -1,6 +1,5 @@
 node_modules/
 public/
-!public/admin/
 static/assets/css/app.css
 static/assets/js/app.js
 static/assets/fonts/
