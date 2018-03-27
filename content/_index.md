@@ -1,21 +1,21 @@
 ---
 title: Portland DSA
 blocks:
- - title: "What's Democratic Socialism?"
-   image: "/assets/images/dev_topicStrip_placeholderImage1.jpg"
-   text: >-
+ - blockTitle: "What's Democratic Socialism?"
+   blockImage: "/assets/images/dev_topicStrip_placeholderImage1.jpg"
+   blockContent: >-
      It’s the idea that XYZ. Democratic socialists believe that a just economy and society
      should be run democratically, and that something something economics. Pro-woman, 
      pro-immigrant, anti-racist. [Learn more about democratic socialism](https://www.google.com)
- - title: "Find Upcoming Events"
-   image: "/assets/images/dev_topicStrip_placeholderImage2.jpg"
-   text: >-
+ - blockTitle: "Find Upcoming Events"
+   blockImage: "/assets/images/dev_topicStrip_placeholderImage2.jpg"
+   blockContent: >-
      From chapter meetings and happy hours to demonstrations, actions, and community events, 
      there’s something for everyone. And it’s almost all open to newcomers. 
      [View our calendar of events](https://www.google.com)
- - title: "Organize with us"
-   image: "/assets/images/dev_topicStrip_placeholderImage3.jpg"
-   text: >-
+ - blockTitle: "Organize with us"
+   blockImage: "/assets/images/dev_topicStrip_placeholderImage3.jpg"
+   blockContent: >-
      Ready to join? We’ll help you become a national member, and get you on board locally. 
      [Join us!](https://www.google.com)
 ---
