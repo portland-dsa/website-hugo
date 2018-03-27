@@ -19,9 +19,9 @@ blocks:
       board locally.  [Join us!](https://www.google.com)
     blockImage: /assets/images/dev_topicStrip_placeholderImage3.jpg
     blockTitle: Organize with us
-  - blockContent: Test content
-    blockImage: /assets/images/uploads/bg_crop.jpg
-    blockTitle: Test block
+  - blockContent: 'Wow, such progresss.'
+    blockImage: /assets/images/uploads/doge.jpg
+    blockTitle: 'Much socialism, wow'
 ---
 We are a local chapter of the Democratic Socialists of America, the largest socialist 
 organization in the US. We organize together for economic, racial, and social justice 
