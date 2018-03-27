@@ -1,4 +1,4 @@
 ---
 title: Test page
 ---
-Test test
+This content has been modified via the CMS.
