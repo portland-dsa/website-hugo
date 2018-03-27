@@ -22,37 +22,19 @@
   </div>
 </div><!-- /containerCta -->
 
+{{ range .Params.blocks }}
 <div class="topicStripsContainer">
   <article class="topicStrip">
-    <div class="topicStrip__image"><img src="/assets/images/dev_topicStrip_placeholderImage1.jpg" alt="Placeholder image"></div>
+    <div class="topicStrip__image"><img src="{{ .image }}" alt="Placeholder image"></div>
     <div class="topicStrip__textContentContainer">
-      <h1 class="topicStrip__headline">What’s democratic socialism?</h1>
+      <h1 class="topicStrip__headline">{{ .title }}</h1>
       <div class="topicStrip__content">
-      <p>It’s the idea that XYZ. Democratic socialists believe that a just economy and society should be run democratically, and that something something economics. Pro-woman, pro-immigrant, anti-racist. <a>Learn more about democratic socialism</a></p>
-      </div>
-    </div>
-  </article>
-
-  <article class="topicStrip">
-    <div class="topicStrip__image"><img src="/assets/images/dev_topicStrip_placeholderImage2.jpg" alt="Placeholder image"></div>
-    <div class="topicStrip__textContentContainer">
-      <h1 class="topicStrip__headline">Find upcoming events</h1>
-      <div class="topicStrip__content">
-      <p>From chapter meetings and happy hours to demonstrations, actions, and community events, there’s something for everyone. And it’s almost all open to newcomers. <a>View our calendar of events</a></p>
-      </div>
-    </div>
-  </article>
-
-  <article class="topicStrip">
-    <div class="topicStrip__image"><img src="/assets/images/dev_topicStrip_placeholderImage3.jpg" alt="Placeholder image"></div>
-    <div class="topicStrip__textContentContainer">
-      <h1 class="topicStrip__headline">Organize with us</h1>
-      <div class="topicStrip__content">
-      <p>Ready to join? We’ll help you become a national member, and get you on board locally. <a>Join us!</a></p>
+        {{ .text | markdownify }}
       </div>
     </div>
   </article>
 </div><!-- /topicStripsContainer -->
+{{ end }}
 
 </main>
 {{ end }}
