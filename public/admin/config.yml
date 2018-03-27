@@ -16,12 +16,12 @@ media_folder: "static/assets/images/uploads" # Media files will be stored in the
 public_folder: "/assets/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
-  - label: "Pages"
-    name: "pages"
+  - name: "pages"
+    label: "Pages"
     files:
-      - label: "Home Page"
+      - file: "content/_index.md"
+        label: "Home Page"
         name: "home"
-        file: "content/_index.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
