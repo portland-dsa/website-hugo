@@ -19,6 +19,20 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
+      - file: "content/what-is-democratic-socialism.md"
+        label: "What is Democratic Socialism"
+        name: "what-is-democratic-socialism"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Callout", name: "callout", widget: "markdown"}
+      - file: "content/who-we-are.md"
+        label: "Who We Are"
+        name: "who-we-are"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Callout", name: "callout", widget: "markdown"}
       - file: "content/_index.md"
         label: "Home Page"
         name: "home"
