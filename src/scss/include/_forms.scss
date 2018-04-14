@@ -38,8 +38,6 @@ input {
   padding: ($commonBlockSpacing * .7) $commonBlockSpacing;
   border: 1px solid $colorGray;
   border-radius: 0;
-
-  color: lime;
   font-size: 1rem;
   line-height: 1.4;
 }
@@ -50,12 +48,12 @@ input:not([type='checkbox']):not([type='radio']) {
 }
 
 // Wide text boxes
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="text"] {
-  width: 100%;
-}
+// input[type="text"],
+// input[type="email"],
+// input[type="tel"],
+// input[type="text"] {
+//   width: 100%;
+// }
 
 // Custom radio button image code from:
 // http://code.stephenmorley.org/html-and-css/styling-checkboxes-and-radio-buttons/
@@ -109,17 +107,24 @@ input[type=radio]:not(old):checked + label{
 // = TABLET and larger =
 // =====================
 @media screen and (min-width: $breakpointTablet) {
+  // input[type="text"],
+  // input[type="email"],
+  // input[type="tel"],
+  // input[type="text"] {
+  //   width: 35ex;
+  // }
+} // /TABLET and larger
 
+// Mailchimp form styles
 
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="text"] {
-  width: 35ex;
+.ctaCard__collectEmailForm {
+  position: relative;
 }
 
+.mce_inline_error {
+  background: rgba($colorRed, .2);
+}
 
-} // /TABLET and larger
 .mce-responses {
   background: $colorWhite;
   color: $colorGray;
