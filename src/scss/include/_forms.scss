@@ -120,3 +120,47 @@ input[type="text"] {
 
 
 } // /TABLET and larger
+.mce-responses {
+  background: $colorWhite;
+  color: $colorGray;
+  font-size: 0.75em;
+  position: absolute;
+  top: 110%;
+  z-index: 1;
+
+  a {
+    color: inherit;
+    font-weight: normal;
+  }
+
+  &__response {
+    padding: 1em;
+    border: 1px solid $colorGray;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+
+    &::before {
+      margin-right: 0.75em;
+      font-size: 1.5em;
+    }
+
+    &.is-success {
+      &::before {
+        content: '✔';
+      }
+      color: $colorGreen;
+      border-color: $colorGreen;
+    }
+
+    &.is-error {
+      &::before {
+        content: 'x';
+        font-weight: bold;
+
+      }
+
+      color: $colorRed;
+      border-color: $colorRed;
+    }
+  }
+}
