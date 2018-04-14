@@ -48,9 +48,8 @@ $overlapMeasurement_pageContentArea: $commonBlockSpacing * 4.5;
   // Simple "one text field; one button" form to collect an email addy
   &__collectEmailForm {
     &__textInput {
-      width: 100%;
+      width: 65%;
       margin-bottom: 1em;
-
       border: $borderStyle1;
     }
 
