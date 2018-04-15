@@ -1,0 +1,16 @@
+.formWorkWithUs {
+  margin-left: auto;
+  margin-right: auto;
+
+  @include tablet {
+    width: 35ex;
+  }
+
+  &_isDuesPayingGroup {
+    margin: 2em 0;
+  }
+
+  .button {
+    width: 100%;
+  }
+}

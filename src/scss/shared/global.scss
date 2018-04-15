@@ -24,7 +24,7 @@ body {
 }
 
 a {
-  color: $colorRed;
+  color: $color-red;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -64,7 +64,7 @@ footer ul {
 // Shared styles for socialLinks that appear in both the header and footer
 // -----------------------------------
 @mixin socialLinks( $iconWidth, $iconHeight ) {
-  margin: $commonBlockSpacing 0;
+  margin: $base-block-spacing 0;
 
   // This is probably a <ul>
   &__itemContainer {
@@ -112,20 +112,10 @@ footer ul {
   height: 12rem;
 }
 
-
-// ##################################################################
-// ####### Media Queries ############################################
-// ##################################################################
-
-
-// =====================
-// = Tablet and larger =
-// =====================
-@media screen and (min-width: $breakpointTablet) {
-
-.mobileOnly {
+.mobile-only {
   display: none;
+
+  @include tablet {
+    display: block;
+  }
 }
-
-
-} // /Tablet and larger

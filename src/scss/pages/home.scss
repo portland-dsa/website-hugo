@@ -1,30 +1,50 @@
-// Vars that apply to styles in this file only (don't have global use)
-$overlapMeasurement_topicStrip: $commonBlockSpacing * 5;
+$overlapMeasurement_topicStrip: $base-block-spacing * 5;
 
 .topicStripsContainer {
-  @include baseModuleFontSize();
-
-  // Stretch out beyond our parent container for full bleed background
-  margin-left: -$commonBlockSpacing * 1;
-  margin-right: -$commonBlockSpacing * 1;
-  padding: $commonBlockSpacing * 1;
-
-  // Scoot up for overlap effect
+  @include baseModuleFontSize;
+  margin-left: -$base-block-spacing * 1;
+  margin-right: -$base-block-spacing * 1;
+  padding: $base-block-spacing * 1;
   padding-top: $overlapMeasurement_topicStrip;
   margin-top: -$overlapMeasurement_topicStrip;
+  background-color: $color-gray-light;
 
-  background-color: $colorGrayLight;
+  @include desktop {
+    margin-left: -$base-block-spacing * 4;
+    margin-right: -$base-block-spacing * 4;
+    padding: $base-block-spacing * 4;
+    padding-top: $overlapMeasurement_topicStrip;
+    margin-top: -$overlapMeasurement_topicStrip;
+  }
 }
 
 .topicStrip {
   margin: 4em 0;
 
+  @include tablet {
+    display: flex;
+    align-items: flex-end;
+
+    &__image {
+      margin-right: $base-block-spacing;
+      flex: 1 0 380px;
+    }
+
+    &__headline {
+      font-size: 1.6em;
+    }
+  }
+
   &:first-of-type {
-    margin-top: $commonBlockSpacing;
+    margin-top: $base-block-spacing;
   }
 
   &:last-of-type {
-    margin-bottom: $commonBlockSpacing * 2;
+    margin-bottom: $base-block-spacing * 2;
+
+    @include desktop {
+      margin-bottom: $base-block-spacing;
+    }
   }
 
   &__headline {
@@ -32,68 +52,7 @@ $overlapMeasurement_topicStrip: $commonBlockSpacing * 5;
     font-size: 1.4em;
   }
 
-  // &__textContentContainer {}
-  // &__image {}
-
   &__content p {
     margin: 0;
   }
 }
-
-// ##################################################################
-// ####### Media Queries ############################################
-// ##################################################################
-
-
-// =====================
-// = TABLET and larger =
-// =====================
-@media screen and (min-width: $breakpointTablet) {
-
-
-.topicStrip {
-  display: flex;
-  align-items: flex-end;
-
-  &__image {
-    margin-right: $commonBlockSpacing;
-    flex: 1 0 380px;
-  }
-
-  &__headline {
-    font-size: 1.6em;
-  }
-
-  // &__content {}
-}
-
-
-} // /TABLET and larger
-
-
-// =====================
-// = LAPTOP and larger =
-// =====================
-
-@media screen and (min-width: $breakpointLaptop) {
-
-
-.topicStripsContainer {
-  // Stretch out beyond our parent container for full bleed background
-  margin-left: -$commonBlockSpacing * 4;
-  margin-right: -$commonBlockSpacing * 4;
-  padding: $commonBlockSpacing * 4;
-
-  // Scoot up for overlap effect
-  padding-top: $overlapMeasurement_topicStrip;
-  margin-top: -$overlapMeasurement_topicStrip;
-}
-
-.topicStrip {
-  &:last-of-type {
-    margin-bottom: $commonBlockSpacing;
-  }
-}
-
-
-} // /LAPTOP and larger

@@ -1,36 +1,18 @@
 // Screen Sizes
+@mixin tablet {
+  @media screen and (min-width: $breakpoint-tablet) {
+    @content;
+  }
+}
 
-// Joel says: I tried it this way and my brain didn't like it. I'm
-// instead just putting media queries at the bottom of the various
-// .scss files.
-//
-// @mixin mobile {
-//   @media screen and (min-width: $breakpoint-mobile) {
-//     @content;
-//   }
-// }
+@mixin desktop {
+  @media screen and (min-width: $breakpoint-desktop) {
+    @content;
+  }
+}
 
-// @mixin tablet {
-//   @media screen and (min-width: $breakpointTablet) {
-//     @content;
-//   }
-// }
-
-// @mixin laptop {
-//   @media screen and (min-width: $breakpointLaptop) {
-//     @content;
-//   }
-// }
-
-// @mixin desktop {
-//   @media screen and (min-width: $breakpoint-desktop) {
-//     @content;
-//   }
-// }
-
-// Set base font size for areas of the page that one could concider
-// a self-contained module
-@mixin baseModuleFontSize() {
+// Set base font size for areas of the page that one could consider a self-contained module
+@mixin baseModuleFontSize {
   font-size: 1rem;
 }
 
@@ -40,24 +22,6 @@
   margin-top: -1px;
   margin-bottom: -1px;
 }
-
-// // Clear a float fix (from H5BP)
-// @mixin clearfix {
-//   &:before,
-//   &:after {
-//     content: " ";
-//     display: table;
-//   }
-
-//   &:after {
-//     clear: both;
-//   }
-
-//   & {
-//     *zoom: 1;
-//   }
-// }
-
 
 // Image replacement
 // Swap out text for an image as background. See related .ir styles in src/shared/global.scss

@@ -1,17 +1,25 @@
-// Vars that apply to styles in this file only (don't have global use)
-$overlapMeasurement_pageContentArea: $commonBlockSpacing * 4.5;
-
+$overlapMeasurement_pageContentArea: $base-block-spacing * 4.5;
 
 .main {
-  margin: $commonBlockSpacing;
-
+  margin: $base-block-spacing;
   line-height: 1.4;
+
+  &__greeting {
+    @include tablet {
+      margin: $base-block-spacing 0;
+      margin-bottom: $base-block-spacing * 2;
+    }
+  }
 
   &__greeting,
   &__greeting--followedByOverlapEffectElem {
     font-size: 1.3em;
-    // margin-bottom: $overlapMeasurement_pageContentArea * 1.5;
-    margin-bottom: $commonBlockSpacing * 2;
+    margin-bottom: $base-block-spacing * 2;
+
+    @include tablet {
+      font-size: 1.5em;
+      line-height: 1.5;
+    }
   }
 
   &__greeting--followedByOverlapEffectElem {
@@ -21,18 +29,16 @@ $overlapMeasurement_pageContentArea: $commonBlockSpacing * 4.5;
 
 .containerCta {
   position: relative;
-  margin: $commonBlockSpacing 0;
+  margin: $base-block-spacing 0;
 }
 
 .ctaCard {
   @include baseModuleFontSize();
-
-  margin: $commonBlockSpacing 0;
-  padding: $commonBlockSpacing * 1.5;
-  border: $borderStyle1;
-  border-radius: $borderRadius1;
-
-  background: $colorWhite;
+  background: $color-white;
+  border: $base-border-style;
+  border-radius: $base-border-radius;
+  margin: $base-block-spacing 0;
+  padding: $base-block-spacing * 1.5;
 
   &__headline {
     font-size: 1.2em;
@@ -43,18 +49,15 @@ $overlapMeasurement_pageContentArea: $commonBlockSpacing * 4.5;
     margin: 1em 0;
   }
 
-  // &__button {}
-
-  // Simple "one text field; one button" form to collect an email addy
   &__collectEmailForm {
     &__textInput {
       width: 65%;
       margin-bottom: 1em;
-      border: $borderStyle1;
+      border: $base-border-style;
     }
 
     &__button {
-      padding: $klimaFontHack;
+      padding: $klima-font-hack;
     }
   }
 }
@@ -64,16 +67,16 @@ $overlapMeasurement_pageContentArea: $commonBlockSpacing * 4.5;
   @include baseModuleFontSize();
 
   // Stretch out beyond our parent container for full bleed background
-  margin-left: -$commonBlockSpacing * 1;
-  margin-right: -$commonBlockSpacing * 1;
-  padding: $commonBlockSpacing * 1;
+  margin-left: -$base-block-spacing * 1;
+  margin-right: -$base-block-spacing * 1;
+  padding: $base-block-spacing * 1;
 
   // Pull up item below (which should always be .containerCta)
   // for overlap effect
   padding-bottom: $overlapMeasurement_pageContentArea * 2;
   margin-bottom: -$overlapMeasurement_pageContentArea * 2;
 
-  background-color: $colorGrayLight;
+  background-color: $color-gray-light;
 
   .pageContentArea {
     &__image {
@@ -108,8 +111,7 @@ $overlapMeasurement_pageContentArea: $commonBlockSpacing * 4.5;
 // =====================
 // = TABLET and larger =
 // =====================
-@media screen and (min-width: $breakpointTablet) {
-
+@media screen and (min-width: $breakpoint-tablet) {
 
 body {
   max-width: 900px;
@@ -117,23 +119,8 @@ body {
   margin-right: auto;
 }
 
-.main {
-  &__greeting,
-  &__greeting--followedByOverlapEffectElem
-  {
-    font-size: 1.5em;
-    line-height: 1.5;
-  }
-
-  &__greeting {
-    margin: $commonBlockSpacing 0;
-    margin-bottom: $commonBlockSpacing * 2;
-  }
-}
-
 .containerCta,
-.containerCta--center,
- {
+.containerCta--center {
   display: flex;
   justify-content: space-between;
 
@@ -159,7 +146,6 @@ body {
     &__button {
       margin: 0; // margin is a Safari fix
       width: 80%; // width 80% is an iPad fix (iOS 9)
-
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
     }
@@ -167,47 +153,40 @@ body {
 }
 
 
-} // /TABLET and larger
-
-
+}
 
 // =====================
 // = LAPTOP and larger =
 // =====================
 
-@media screen and (min-width: $breakpointLaptop) {
+@media screen and (min-width: $breakpoint-desktop) {
+  .ctaCard {
+    width: 48%;
+  }
 
+  .containerPageContentArea,
+  .containerPageContentArea--pageJoin {
+    // Stretch out beyond our parent container for full bleed background
+    margin-left: -$base-block-spacing * 4;
+    margin-right: -$base-block-spacing * 4;
+    padding: $base-block-spacing * 4;
 
-.ctaCard {
-  width: 48%;
-}
+    // Pull up item below (which should always be .containerCta)
+    // for overlap effect
+    padding-bottom: $overlapMeasurement_pageContentArea * 2;
+    margin-bottom: -$overlapMeasurement_pageContentArea * 2;
 
-.containerPageContentArea,
-.containerPageContentArea--pageJoin {
-  // Stretch out beyond our parent container for full bleed background
-  margin-left: -$commonBlockSpacing * 4;
-  margin-right: -$commonBlockSpacing * 4;
-  padding: $commonBlockSpacing * 4;
+    .pageContentArea {
+      padding: 0 8em;
 
-  // Pull up item below (which should always be .containerCta)
-  // for overlap effect
-  padding-bottom: $overlapMeasurement_pageContentArea * 2;
-  margin-bottom: -$overlapMeasurement_pageContentArea * 2;
-
-  .pageContentArea {
-    padding: 0 8em;
-
-    &__image {
-      margin-top: -$overlapMeasurement_pageContentArea * 1.6;
+      &__image {
+        margin-top: -$overlapMeasurement_pageContentArea * 1.6;
+      }
     }
   }
+
+  .containerPageContentArea--pageJoin {
+    padding-top: $base-block-spacing;
+  }
 }
-
-.containerPageContentArea--pageJoin {
-  padding-top: $commonBlockSpacing;
-}
-
-
-
-} // /LAPTOP and larger
 

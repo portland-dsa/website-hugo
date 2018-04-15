@@ -1,21 +1,16 @@
 .button {
+  background: $color-green;
+  border-radius: $base-border-radius;
+  border: 1px solid $color-green;
+  color: $color-white;
   display: inline-block;
-
-  padding: ($commonBlockSpacing * .7) $commonBlockSpacing;
-  // Klima has weird baseline issues. Need to use a hack :(
-  padding-top: $klimaFontHack;
-
-  border: 1px solid $colorGreen;
-  border-radius: $borderRadius1;
-
-  background: $colorGreen;
-  color: $colorWhite;
-
   font-size: 1em;
   font-weight: bold;
   letter-spacing: 0.2ex;
-  text-transform: uppercase;
+  padding: ($base-block-spacing * .7) $base-block-spacing;
+  padding-top: $klima-font-hack;
   text-decoration: none;
+  text-transform: uppercase;
 
   // The klima font hack works fine when applied to <a>'s, but it
   // chokes on <input>'s. The below is soooooo hacky, and I truly hate
@@ -23,8 +18,8 @@
   // resemble the padding on non-inputs. 0.12 is a magic number that
   // makes it look good. Please someone fix this later.
   @at-root input#{&} {
-    padding-top: $klimaFontHack - 0.12;
-    padding-bottom: $klimaFontHack - 0.12;
+    padding-top: $klima-font-hack - 0.12;
+    padding-bottom: $klima-font-hack - 0.12;
   }
 }
 
@@ -35,25 +30,18 @@ fieldset {
 }
 
 input {
-  padding: ($commonBlockSpacing * .7) $commonBlockSpacing;
-  border: 1px solid $colorGray;
+  border: 1px solid $color-gray;
   border-radius: 0;
   font-size: 1rem;
   line-height: 1.4;
+  padding: ($base-block-spacing * .7) $base-block-spacing;
+  color: $color-gray;
 }
 
 // Remove annoying inner shadow in iOS input boxes
 input:not([type='checkbox']):not([type='radio']) {
   -webkit-appearance: none;
 }
-
-// Wide text boxes
-// input[type="text"],
-// input[type="email"],
-// input[type="tel"],
-// input[type="text"] {
-//   width: 100%;
-// }
 
 // Custom radio button image code from:
 // http://code.stephenmorley.org/html-and-css/styling-checkboxes-and-radio-buttons/
@@ -76,58 +64,39 @@ input[type=radio]:not(old):checked + label{
 // Thanks toscho at https://stackoverflow.com/a/2610741
 // ------------------------------------------------------------
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-  color: $colorGray;
+  color: $color-gray;
 }
 
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-  color: $colorGray;
+  color: $color-gray;
   opacity:  1;
 }
 
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-  color: $colorGray;
+  color: $color-gray;
   opacity:  1;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: $colorGray;
+  color: $color-gray;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-  color: $colorGray;
+  color: $color-gray;
 }
 
-
-
-// ##################################################################
-// ####### Media Queries ############################################
-// ##################################################################
-
-// =====================
-// = TABLET and larger =
-// =====================
-@media screen and (min-width: $breakpointTablet) {
-  // input[type="text"],
-  // input[type="email"],
-  // input[type="tel"],
-  // input[type="text"] {
-  //   width: 35ex;
-  // }
-} // /TABLET and larger
-
 // Mailchimp form styles
-
 .ctaCard__collectEmailForm {
   position: relative;
 }
 
 .mce_inline_error {
-  background: rgba($colorRed, .2);
+  background: rgba($color-red, .2);
 }
 
 .mce-responses {
-  background: $colorWhite;
-  color: $colorGray;
+  background: $color-white;
+  color: $color-gray;
   font-size: 0.75em;
   position: absolute;
   top: 110%;
@@ -140,7 +109,7 @@ input[type=radio]:not(old):checked + label{
 
   &__response {
     padding: 1em;
-    border: 1px solid $colorGray;
+    border: 1px solid $color-gray;
     box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25);
     width: 100%;
 
@@ -153,8 +122,8 @@ input[type=radio]:not(old):checked + label{
       &::before {
         content: '✔';
       }
-      color: $colorGreen;
-      border-color: $colorGreen;
+      color: $color-green;
+      border-color: $color-green;
     }
 
     &.is-error {
@@ -164,8 +133,8 @@ input[type=radio]:not(old):checked + label{
 
       }
 
-      color: $colorRed;
-      border-color: $colorRed;
+      color: $color-red;
+      border-color: $color-red;
     }
   }
 }
