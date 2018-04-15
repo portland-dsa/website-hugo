@@ -1,14 +1,14 @@
 .button {
   background: $color-green;
-  border-radius: $borderRadius1;
+  border-radius: $base-border-radius;
   border: 1px solid $color-green;
   color: $color-white;
   display: inline-block;
   font-size: 1em;
   font-weight: bold;
   letter-spacing: 0.2ex;
-  padding: ($commonBlockSpacing * .7) $commonBlockSpacing;
-  padding-top: $klimaFontHack;
+  padding: ($base-block-spacing * .7) $base-block-spacing;
+  padding-top: $klima-font-hack;
   text-decoration: none;
   text-transform: uppercase;
 
@@ -18,8 +18,8 @@
   // resemble the padding on non-inputs. 0.12 is a magic number that
   // makes it look good. Please someone fix this later.
   @at-root input#{&} {
-    padding-top: $klimaFontHack - 0.12;
-    padding-bottom: $klimaFontHack - 0.12;
+    padding-top: $klima-font-hack - 0.12;
+    padding-bottom: $klima-font-hack - 0.12;
   }
 }
 
@@ -30,7 +30,7 @@ fieldset {
 }
 
 input {
-  padding: ($commonBlockSpacing * .7) $commonBlockSpacing;
+  padding: ($base-block-spacing * .7) $base-block-spacing;
   border: 1px solid $color-gray;
   border-radius: 0;
 

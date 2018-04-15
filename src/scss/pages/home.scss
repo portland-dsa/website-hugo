@@ -1,18 +1,18 @@
-$overlapMeasurement_topicStrip: $commonBlockSpacing * 5;
+$overlapMeasurement_topicStrip: $base-block-spacing * 5;
 
 .topicStripsContainer {
   @include baseModuleFontSize;
-  margin-left: -$commonBlockSpacing * 1;
-  margin-right: -$commonBlockSpacing * 1;
-  padding: $commonBlockSpacing * 1;
+  margin-left: -$base-block-spacing * 1;
+  margin-right: -$base-block-spacing * 1;
+  padding: $base-block-spacing * 1;
   padding-top: $overlapMeasurement_topicStrip;
   margin-top: -$overlapMeasurement_topicStrip;
   background-color: $color-gray-light;
 
   @include desktop {
-    margin-left: -$commonBlockSpacing * 4;
-    margin-right: -$commonBlockSpacing * 4;
-    padding: $commonBlockSpacing * 4;
+    margin-left: -$base-block-spacing * 4;
+    margin-right: -$base-block-spacing * 4;
+    padding: $base-block-spacing * 4;
     padding-top: $overlapMeasurement_topicStrip;
     margin-top: -$overlapMeasurement_topicStrip;
   }
@@ -26,7 +26,7 @@ $overlapMeasurement_topicStrip: $commonBlockSpacing * 5;
     align-items: flex-end;
 
     &__image {
-      margin-right: $commonBlockSpacing;
+      margin-right: $base-block-spacing;
       flex: 1 0 380px;
     }
 
@@ -36,14 +36,14 @@ $overlapMeasurement_topicStrip: $commonBlockSpacing * 5;
   }
 
   &:first-of-type {
-    margin-top: $commonBlockSpacing;
+    margin-top: $base-block-spacing;
   }
 
   &:last-of-type {
-    margin-bottom: $commonBlockSpacing * 2;
+    margin-bottom: $base-block-spacing * 2;
 
     @include desktop {
-      margin-bottom: $commonBlockSpacing;
+      margin-bottom: $base-block-spacing;
     }
   }
 
