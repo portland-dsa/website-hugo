@@ -1,10 +1,10 @@
 // Colors
-$colorGrayLight: #f1f1f1;
-$colorGray:      #909090;
-$colorGreen:     #00a430;
-$colorRed:       #f30000;
-$colorRedDark:   #D70000;
-$colorWhite:     #fff;
+$color-gray-light: #f1f1f1;
+$color-gray: #909090;
+$color-green: #00a430;
+$color-red-dark: #d70000;
+$color-red: #f30000;
+$color-white: #fff;
 
 // Screen Sizes
 $breakpointTablet: 768px;
@@ -13,7 +13,7 @@ $breakpointLaptop: 1100px;
 
 // Block stuff
 $commonBlockSpacing: 1rem;
-$borderStyle1: 1px solid $colorGray;
+$borderStyle1: 1px solid $color-gray;
 $borderRadius1: 5px;
 
 // Main logo
