@@ -1,21 +1,16 @@
 .button {
-  display: inline-block;
-
-  padding: ($commonBlockSpacing * .7) $commonBlockSpacing;
-  // Klima has weird baseline issues. Need to use a hack :(
-  padding-top: $klimaFontHack;
-
-  border: 1px solid $color-green;
-  border-radius: $borderRadius1;
-
   background: $color-green;
+  border-radius: $borderRadius1;
+  border: 1px solid $color-green;
   color: $color-white;
-
+  display: inline-block;
   font-size: 1em;
   font-weight: bold;
   letter-spacing: 0.2ex;
-  text-transform: uppercase;
+  padding: ($commonBlockSpacing * .7) $commonBlockSpacing;
+  padding-top: $klimaFontHack;
   text-decoration: none;
+  text-transform: uppercase;
 
   // The klima font hack works fine when applied to <a>'s, but it
   // chokes on <input>'s. The below is soooooo hacky, and I truly hate
@@ -97,26 +92,7 @@ input[type=radio]:not(old):checked + label{
   color: $color-gray;
 }
 
-
-
-// ##################################################################
-// ####### Media Queries ############################################
-// ##################################################################
-
-// =====================
-// = TABLET and larger =
-// =====================
-@media screen and (min-width: $breakpointTablet) {
-  // input[type="text"],
-  // input[type="email"],
-  // input[type="tel"],
-  // input[type="text"] {
-  //   width: 35ex;
-  // }
-} // /TABLET and larger
-
 // Mailchimp form styles
-
 .ctaCard__collectEmailForm {
   position: relative;
 }

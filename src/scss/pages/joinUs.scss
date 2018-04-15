@@ -2,6 +2,10 @@
   margin-left: auto;
   margin-right: auto;
 
+  @include tablet {
+    width: 35ex;
+  }
+
   &_isDuesPayingGroup {
     margin: 2em 0;
   }
@@ -10,22 +14,3 @@
     width: 100%;
   }
 }
-
-
-
-// ##################################################################
-// ####### Media Queries ############################################
-// ##################################################################
-
-// =====================
-// = TABLET and larger =
-// =====================
-@media screen and (min-width: $breakpointTablet) {
-
-.formWorkWithUs {
-  width: 35ex;
-}
-
-} // /TABLET and larger
-
-
