@@ -1,17 +1,25 @@
-// Vars that apply to styles in this file only (don't have global use)
 $overlapMeasurement_pageContentArea: $commonBlockSpacing * 4.5;
-
 
 .main {
   margin: $commonBlockSpacing;
-
   line-height: 1.4;
+
+  &__greeting {
+    @include tablet {
+      margin: $commonBlockSpacing 0;
+      margin-bottom: $commonBlockSpacing * 2;
+    }
+  }
 
   &__greeting,
   &__greeting--followedByOverlapEffectElem {
     font-size: 1.3em;
-    // margin-bottom: $overlapMeasurement_pageContentArea * 1.5;
     margin-bottom: $commonBlockSpacing * 2;
+
+    @include tablet {
+      font-size: 1.5em;
+      line-height: 1.5;
+    }
   }
 
   &__greeting--followedByOverlapEffectElem {
@@ -26,13 +34,11 @@ $overlapMeasurement_pageContentArea: $commonBlockSpacing * 4.5;
 
 .ctaCard {
   @include baseModuleFontSize();
-
-  margin: $commonBlockSpacing 0;
-  padding: $commonBlockSpacing * 1.5;
+  background: $color-white;
   border: $borderStyle1;
   border-radius: $borderRadius1;
-
-  background: $color-white;
+  margin: $commonBlockSpacing 0;
+  padding: $commonBlockSpacing * 1.5;
 
   &__headline {
     font-size: 1.2em;
@@ -43,9 +49,6 @@ $overlapMeasurement_pageContentArea: $commonBlockSpacing * 4.5;
     margin: 1em 0;
   }
 
-  // &__button {}
-
-  // Simple "one text field; one button" form to collect an email addy
   &__collectEmailForm {
     &__textInput {
       width: 100%;
@@ -111,30 +114,14 @@ $overlapMeasurement_pageContentArea: $commonBlockSpacing * 4.5;
 // =====================
 @media screen and (min-width: $breakpointTablet) {
 
-
 body {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.main {
-  &__greeting,
-  &__greeting--followedByOverlapEffectElem
-  {
-    font-size: 1.5em;
-    line-height: 1.5;
-  }
-
-  &__greeting {
-    margin: $commonBlockSpacing 0;
-    margin-bottom: $commonBlockSpacing * 2;
-  }
-}
-
 .containerCta,
-.containerCta--center,
- {
+.containerCta--center {
   display: flex;
   justify-content: space-between;
 
@@ -160,7 +147,6 @@ body {
     &__button {
       margin: 0; // margin is a Safari fix
       width: 80%; // width 80% is an iPad fix (iOS 9)
-
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
     }
@@ -168,47 +154,40 @@ body {
 }
 
 
-} // /TABLET and larger
-
-
+}
 
 // =====================
 // = LAPTOP and larger =
 // =====================
 
 @media screen and (min-width: $breakpointLaptop) {
+  .ctaCard {
+    width: 48%;
+  }
 
+  .containerPageContentArea,
+  .containerPageContentArea--pageJoin {
+    // Stretch out beyond our parent container for full bleed background
+    margin-left: -$commonBlockSpacing * 4;
+    margin-right: -$commonBlockSpacing * 4;
+    padding: $commonBlockSpacing * 4;
 
-.ctaCard {
-  width: 48%;
-}
+    // Pull up item below (which should always be .containerCta)
+    // for overlap effect
+    padding-bottom: $overlapMeasurement_pageContentArea * 2;
+    margin-bottom: -$overlapMeasurement_pageContentArea * 2;
 
-.containerPageContentArea,
-.containerPageContentArea--pageJoin {
-  // Stretch out beyond our parent container for full bleed background
-  margin-left: -$commonBlockSpacing * 4;
-  margin-right: -$commonBlockSpacing * 4;
-  padding: $commonBlockSpacing * 4;
+    .pageContentArea {
+      padding: 0 8em;
 
-  // Pull up item below (which should always be .containerCta)
-  // for overlap effect
-  padding-bottom: $overlapMeasurement_pageContentArea * 2;
-  margin-bottom: -$overlapMeasurement_pageContentArea * 2;
-
-  .pageContentArea {
-    padding: 0 8em;
-
-    &__image {
-      margin-top: -$overlapMeasurement_pageContentArea * 1.6;
+      &__image {
+        margin-top: -$overlapMeasurement_pageContentArea * 1.6;
+      }
     }
   }
+
+  .containerPageContentArea--pageJoin {
+    padding-top: $commonBlockSpacing;
+  }
 }
-
-.containerPageContentArea--pageJoin {
-  padding-top: $commonBlockSpacing;
-}
-
-
-
-} // /LAPTOP and larger
 
