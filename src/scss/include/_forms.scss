@@ -5,11 +5,11 @@
   // Klima has weird baseline issues. Need to use a hack :(
   padding-top: $klimaFontHack;
 
-  border: 1px solid $colorGreen;
+  border: 1px solid $color-green;
   border-radius: $borderRadius1;
 
-  background: $colorGreen;
-  color: $colorWhite;
+  background: $color-green;
+  color: $color-white;
 
   font-size: 1em;
   font-weight: bold;
@@ -36,7 +36,7 @@ fieldset {
 
 input {
   padding: ($commonBlockSpacing * .7) $commonBlockSpacing;
-  border: 1px solid $colorGray;
+  border: 1px solid $color-gray;
   border-radius: 0;
   font-size: 1rem;
   line-height: 1.4;
@@ -76,25 +76,25 @@ input[type=radio]:not(old):checked + label{
 // Thanks toscho at https://stackoverflow.com/a/2610741
 // ------------------------------------------------------------
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-  color: $colorGray;
+  color: $color-gray;
 }
 
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-  color: $colorGray;
+  color: $color-gray;
   opacity:  1;
 }
 
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-  color: $colorGray;
+  color: $color-gray;
   opacity:  1;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: $colorGray;
+  color: $color-gray;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-  color: $colorGray;
+  color: $color-gray;
 }
 
 

@@ -32,7 +32,7 @@ $overlapMeasurement_pageContentArea: $commonBlockSpacing * 4.5;
   border: $borderStyle1;
   border-radius: $borderRadius1;
 
-  background: $colorWhite;
+  background: $color-white;
 
   &__headline {
     font-size: 1.2em;
@@ -73,7 +73,7 @@ $overlapMeasurement_pageContentArea: $commonBlockSpacing * 4.5;
   padding-bottom: $overlapMeasurement_pageContentArea * 2;
   margin-bottom: -$overlapMeasurement_pageContentArea * 2;
 
-  background-color: $colorGrayLight;
+  background-color: $color-gray-light;
 
   .pageContentArea {
     &__image {
