@@ -91,12 +91,12 @@ input[type=radio]:not(old):checked + label{
 }
 
 .mce_inline_error {
-  background: rgba($colorRed, .2);
+  background: rgba($color-red, .2);
 }
 
 .mce-responses {
-  background: $colorWhite;
-  color: $colorGray;
+  background: $color-white;
+  color: $color-gray;
   font-size: 0.75em;
   position: absolute;
   top: 110%;
@@ -109,7 +109,7 @@ input[type=radio]:not(old):checked + label{
 
   &__response {
     padding: 1em;
-    border: 1px solid $colorGray;
+    border: 1px solid $color-gray;
     box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25);
     width: 100%;
 
@@ -122,8 +122,8 @@ input[type=radio]:not(old):checked + label{
       &::before {
         content: '✔';
       }
-      color: $colorGreen;
-      border-color: $colorGreen;
+      color: $color-green;
+      border-color: $color-green;
     }
 
     &.is-error {
@@ -133,8 +133,8 @@ input[type=radio]:not(old):checked + label{
 
       }
 
-      color: $colorRed;
-      border-color: $colorRed;
+      color: $color-red;
+      border-color: $color-red;
     }
   }
 }

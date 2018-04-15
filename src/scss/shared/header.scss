@@ -156,7 +156,7 @@
 // =====================
 // = TABLET and larger =
 // =====================
-@media screen and (min-width: $breakpointTablet) {
+@media screen and (min-width: $breakpoint-tablet) {
 
 
 .header {
@@ -234,7 +234,7 @@
 // =====================
 // = LAPTOP and larger =
 // =====================
-@media screen and (min-width: $breakpointLaptop) {
+@media screen and (min-width: $breakpoint-desktop) {
 
 
 
