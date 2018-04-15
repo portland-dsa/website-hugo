@@ -22,16 +22,8 @@
       <a class="button ctaCard__button">Join Us</a>
     </div>
 
-    <div class="ctaCard">
-      <h1 class="ctaCard__headline">Sign up for our newsletter</h1>
-      <p class="ctaCard__content">
-        Stay in touch! Join our newsletter to learn about upcoming events and community actions.
-      </p>
-      <form action="" class="ctaCard__collectEmailForm">
-        <input class="ctaCard__collectEmailForm__textInput" placeholder="Email address"></input>
-        <input type="submit" value="Subscribe" class="button ctaCard__collectEmailForm__button">
-      </form>
-    </div>
-  </div><!-- /containerCta -->
+    {{ partial "email-signup-card.html" . }}
+
+  </div>
 </main>
 {{ end }}
