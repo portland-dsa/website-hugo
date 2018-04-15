@@ -30,25 +30,17 @@ fieldset {
 }
 
 input {
-  padding: ($base-block-spacing * .7) $base-block-spacing;
   border: 1px solid $color-gray;
   border-radius: 0;
   font-size: 1rem;
   line-height: 1.4;
+  padding: ($base-block-spacing * .7) $base-block-spacing;
 }
 
 // Remove annoying inner shadow in iOS input boxes
 input:not([type='checkbox']):not([type='radio']) {
   -webkit-appearance: none;
 }
-
-// Wide text boxes
-// input[type="text"],
-// input[type="email"],
-// input[type="tel"],
-// input[type="text"] {
-//   width: 100%;
-// }
 
 // Custom radio button image code from:
 // http://code.stephenmorley.org/html-and-css/styling-checkboxes-and-radio-buttons/
