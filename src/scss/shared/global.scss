@@ -64,7 +64,7 @@ footer ul {
 // Shared styles for socialLinks that appear in both the header and footer
 // -----------------------------------
 @mixin socialLinks( $iconWidth, $iconHeight ) {
-  margin: $commonBlockSpacing 0;
+  margin: $base-block-spacing 0;
 
   // This is probably a <ul>
   &__itemContainer {

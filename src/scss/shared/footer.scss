@@ -1,7 +1,7 @@
 .footer {
   @include baseModuleFontSize;
-  margin-bottom: $commonBlockSpacing * 2;
-  margin: $commonBlockSpacing;
+  margin-bottom: $base-block-spacing * 2;
+  margin: $base-block-spacing;
   position: relative;
 
   &__nameAndEmail {
