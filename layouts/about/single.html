@@ -14,16 +14,8 @@
   </div>
 
   <div class="containerCta">
-    <div class="ctaCard">
-      <h1 class="ctaCard__headline">Ready to join?</h1>
-      <p class="ctaCard__content">
-        Let’s go! We’ll help you become a national member, and get you on board locally.
-      </p>
-      <a class="button ctaCard__button">Join Us</a>
-    </div>
-
-    {{ partial "email-signup-card.html" . }}
-
+    {{ partial "cta-join.html" . }}
+    {{ partial "cta-subscribe.html" . }}
   </div>
 </main>
 {{ end }}
