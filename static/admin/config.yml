@@ -19,20 +19,6 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "content/what-is-democratic-socialism.md"
-        label: "What is Democratic Socialism"
-        name: "what-is-democratic-socialism"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Callout", name: "callout", widget: "markdown"}
-      - file: "content/who-we-are.md"
-        label: "Who We Are"
-        name: "who-we-are"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Callout", name: "callout", widget: "markdown"}
       - file: "content/_index.md"
         label: "Home Page"
         name: "home"
@@ -46,11 +32,31 @@ collections:
               - {label: "Title", name: "blockTitle", widget: "string"}
               - {label: "Image", name: "blockImage", widget: "image"}
               - {label: "Text", name: "blockContent", widget: "markdown"}
-  - label: "Test"
-    name: "test"
-    folder: "content/test"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-
+      - file: "content/who-we-are.md"
+        label: "Who We Are"
+        name: "who-we-are"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Callout", name: "callout", widget: "markdown"}
+      - file: "content/what-is-democratic-socialism.md"
+        label: "What is Democratic Socialism"
+        name: "what-is-democratic-socialism"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Callout", name: "callout", widget: "markdown"}
+      - file: "content/calendar.md"
+        label: "Calendar"
+        name: "calendar"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Callout", name: "callout", widget: "markdown"}
+      - file: "content/join.md"
+        label: "Join us"
+        name: "join"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Callout", name: "callout", widget: "markdown"}
