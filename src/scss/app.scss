@@ -1,19 +1,10 @@
-/*!
-Author: Portland DSA Communications Working Group
-Author URI: Gina Giampaolo @ http://whoisgina.com/, Andy Pressman @ https://rumo.rs/, Joel Coreson @ https://prisedesign.com/
-Version: 1.0
-
-Using the power of this wordpress theme, democratic socialism will triumph over capitalism ✊🌹
-*/
-
-
-// Helpers
 @import
 'include/variables',
 'include/mixins';
 
 // Main base styles
 @import
+'include/base',
 'include/normalize',
 'include/fonts',
 'include/forms',

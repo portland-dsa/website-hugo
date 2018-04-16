@@ -1,55 +1,39 @@
-$overlapMeasurement_topicStrip: $base-block-spacing * 5;
+$overlap: $base-block-spacing * 5;
 
-.topicStripsContainer {
-  @include baseModuleFontSize;
-  margin-left: -$base-block-spacing * 1;
-  margin-right: -$base-block-spacing * 1;
-  padding: $base-block-spacing * 1;
-  padding-top: $overlapMeasurement_topicStrip;
-  margin-top: -$overlapMeasurement_topicStrip;
-  background-color: $color-gray-light;
+.topic-strips {
+  background: $color-gray-light;
+  margin-top: -$overlap;
+  padding: $overlap 0 $base-block-spacing 0;
+  position: relative;
 
-  @include desktop {
-    margin-left: -$base-block-spacing * 4;
-    margin-right: -$base-block-spacing * 4;
-    padding: $base-block-spacing * 4;
-    padding-top: $overlapMeasurement_topicStrip;
-    margin-top: -$overlapMeasurement_topicStrip;
+  // Creates effect of a gray background that extends to the edges
+  &::after {
+    background: $color-gray-light;
+    content: '';
+    height: 100%;
+    left: -50%;
+    position: absolute;
+    top: 0;
+    width: 300%;
+    z-index: -1;
   }
 }
 
-.topicStrip {
-  margin: 4em 0;
+.topic-strip {
+  margin-bottom: 4em;
+
+  &__image {
+    margin-right: $base-block-spacing;
+  }
 
   @include tablet {
-    display: flex;
     align-items: flex-end;
-
-    &__image {
-      margin-right: $base-block-spacing;
-      flex: 1 0 380px;
-    }
-
-    &__headline {
-      font-size: 1.6em;
-    }
-  }
-
-  &:first-of-type {
-    margin-top: $base-block-spacing;
-  }
-
-  &:last-of-type {
-    margin-bottom: $base-block-spacing * 2;
-
-    @include desktop {
-      margin-bottom: $base-block-spacing;
-    }
+    display: flex;
   }
 
   &__headline {
-    margin: 0.25em 0;
     font-size: 1.4em;
+    margin: 0.25em 0;
   }
 
   &__content p {

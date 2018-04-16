@@ -9,21 +9,21 @@
   {{ partial "cta-subscribe.html" . }}
 </div>
 
-{{ range .Params.blocks }}
-<div class="topicStripsContainer">
-  <article class="topicStrip">
-    <div class="topicStrip__image">
+<div class="topic-strips">
+  {{ range .Params.blocks }}
+  <article class="topic-strip">
+    <div class="topic-strip__image">
       <img src="{{ .blockImage }}" alt="Placeholder image">
     </div>
-    <div class="topicStrip__textContentContainer">
-      <h1 class="topicStrip__headline">{{ .blockTitle }}</h1>
-      <div class="topicStrip__content">
+    <div class="topic-strip__textContentContainer">
+      <h1 class="topic-strip__headline">{{ .blockTitle }}</h1>
+      <div class="topic-strip__content">
         {{ .blockContent | markdownify }}
       </div>
     </div>
   </article>
+  {{ end }}
 </div>
-{{ end }}
 
 </main>
 {{ end }}

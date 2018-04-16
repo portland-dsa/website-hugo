@@ -30,6 +30,7 @@ $overlapMeasurement_pageContentArea: $base-block-spacing * 4.5;
 .containerCta {
   position: relative;
   margin: $base-block-spacing 0;
+  z-index: 1;
 }
 
 .ctaCard {
@@ -117,12 +118,14 @@ body {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 
 .containerCta,
 .containerCta--center {
   display: flex;
   justify-content: space-between;
+  z-index: 1;
 
   &--center {
     justify-content: center;
