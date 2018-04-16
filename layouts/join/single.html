@@ -1,0 +1,21 @@
+{{ define "main" }}
+<main class="main">
+  <div class="main__greeting--followedByOverlapEffectElem">
+    {{ .Params.callout | markdownify }}
+  </div>
+
+  <div class="containerPageContentArea">
+    <div class="pageContentArea">
+      <div class="pageContentArea__image">
+        <img src="{{ .Params.image.src }}" alt="{{ .Params.image.alt }}">
+      </div>
+      {{ .Content }}
+    </div>
+  </div>
+
+  <div class="containerCta">
+    {{ partial "cta-join.html" . }}
+    {{ partial "cta-subscribe.html" . }}
+  </div>
+</main>
+{{ end }}
