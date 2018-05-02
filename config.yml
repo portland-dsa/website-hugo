@@ -1,0 +1,21 @@
+baseURL: "https://portlanddsa.org/"
+languageCode: "en-us"
+title: "Portland DSA"
+
+menu:
+  main:
+  - name: Home
+    url: /
+    weight: 10
+  - name: Who we are
+    url: /who-we-are/
+    weight: 20
+  - name: What is Democratic Socialism
+    url: /what-is-democratic-socialism/
+    weight: 30
+  - name: Calendar
+    url: /calendar/
+    weight: 40
+  - name: Join us
+    url: /join/
+    weight: 50
