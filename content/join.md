@@ -1,15 +1,10 @@
 ---
 title: What is Democratic Socialism
-type: join
 callout: >-
   Democratic socialism is a political ideology that advocates for engaged
   democracy and shared ownership of production. Need to stress intersectional
   fight against oppressional of all sorts, not just economic.
-image:
-  src: "/assets/images/dev_topicStrip_placeholderImage2.jpg"
-  alt: "Placeholder image"
 ---
 ## Join us
 
-Testing testing 123.
-
+Sound interesting? Come learn more at one of our general interest meetings (calendar) talk to us at one of our events (link to calendar),or become a member (link to national DSA join).
