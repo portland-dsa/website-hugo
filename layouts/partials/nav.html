@@ -2,7 +2,7 @@
   <div class="nameplate">
     <div class="nameplate__logo"></div>
     <h1 class="nameplate__title">
-      <a href="static_home.html">
+      <a href="/">
         Democratic Socialists <span class="forcedLinebreak"></span> of America<br>
         <span class="nameplate__title__cityState">Portland, Oregon</span>
       </a>
@@ -10,14 +10,14 @@
   </div>
 
   <nav class="nav">
-    <a class="nav__toggleButton">Menu</a>
+    <a class="nav__toggleButton" href="">Menu</a>
     <ul class="nav__itemContainer">
-      <li class="nav__item mobile-only"><a class="nav__itemLink" href="/">Home</a></li>
-      <li class="nav__item"><a class="nav__itemLink" href="/who-we-are">Who we are</a></li>
-      <li class="nav__item"><a class="nav__itemLink" href="/what-is-democratic-socialism">What is democratic socialism</a></li>
-      <li class="nav__item"><a class="nav__itemLink" href="/calendar">Calendar</a></li>
-      <li class="nav__item"><a class="nav__itemLink" href="/join">Join us</a></li>
-      </ul/>
+      {{ range .Site.Menus.main }}
+      <li class="nav__item">
+        <a href="{{ .URL }}" class="nav__itemLink"><span>{{ .Name }}</span></a>
+      </li>
+      {{ end }}
+    </ul>
   </nav>
 </header>
 
