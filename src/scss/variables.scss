@@ -16,6 +16,7 @@ $base-background-color: $color-white;
 $base-border-style: 1px solid $color-gray;
 $base-border-radius: 5px;
 $base-font-family: "Klima";
+$base-line-height: 1.4;
 
 // Block stuff
 $base-block-spacing: $base-spacing;
@@ -25,8 +26,8 @@ $logo-width: 76px;
 $logo-height: 72px;
 
 // Type
-$type-size-medium: 1.25rem;
-$type-size-large: 1.75rem;
+$type-size-medium: 1.125em;
+$type-size-large: 1.5em;
 
 // Layout
 $max-width: 900px;

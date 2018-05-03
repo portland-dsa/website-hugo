@@ -2,26 +2,25 @@
   // display: flex;
   margin: 0 auto;
   max-width: $max-width;
-  padding: $base-spacing;
+  padding: $base-spacing 0;
 
   @include medium-screen-up {
+    align-items: flex-end;
     display: flex;
   }
 
   &__image {
     flex: 2;
-    padding: 0 $base-spacing;
+    @include medium-screen-up { padding-right: $base-spacing; }
+
     img { max-width: 100%; }
   }
 
   &__content {
     flex: 3;
-    padding: 0 $base-spacing;
+    @include medium-screen-up { padding-left: $base-spacing; }
   }
 
-  &__headline {
-    margin-top: 0;
-  }
-
+  &__headline { margin-top: 0; }
   &__text {}
 }

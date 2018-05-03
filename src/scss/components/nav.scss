@@ -22,5 +22,9 @@
     }
   }
 
-  &__menu-item {}
+  &__menu-item {
+    &__link {
+      &.is-current { font-weight: bold; }
+    }
+  }
 }

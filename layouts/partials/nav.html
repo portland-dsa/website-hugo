@@ -14,9 +14,11 @@
     <nav class="nav">
       <button class="nav__toggle-button">Menu</button>
       <ul class="nav__menu">
+        {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
         <li class="nav__menu-item">
-          <a href="{{ .URL }}" class="nav__menu-item__link">
+          <a href="{{ .URL }}"
+             class='nav__menu-item__link {{ if eq $currentPage.URL .URL }}is-current{{ end }}'>
             {{ .Name }}
           </a>
         </li>

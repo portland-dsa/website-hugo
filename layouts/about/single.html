@@ -1,12 +1,22 @@
 {{ define "main" }}
-<main class="main">
-  <div class="main__greeting">
+
+{{ with .Params.callout }}
+<div class="container">
+  <div class="intro">
+    <p>
+      {{ . }}
+    </p>
+  </div>
+</div>
+{{ end }}
+
+<div class="fullwidth-section">
+  <div class="container">
     {{ .Content }}
   </div>
-
-  <div class="containerCta">
+  <div class="container container--grid">
     {{ partial "cta-join.html" . }}
     {{ partial "cta-subscribe.html" . }}
   </div>
-</main>
+</div>
 {{ end }}
