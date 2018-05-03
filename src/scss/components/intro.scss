@@ -1,0 +1,14 @@
+.intro {
+  font-size: $type-size-medium;
+  line-height: 1.3;
+  margin: $base-spacing;
+
+  @include medium-screen-up {
+    font-size: $type-size-large;
+    margin: 0;
+  }
+
+  a {
+    display: inline-block;
+  }
+}

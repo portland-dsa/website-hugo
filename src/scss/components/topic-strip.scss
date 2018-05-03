@@ -1,0 +1,27 @@
+.topic-strip {
+  // display: flex;
+  margin: 0 auto;
+  max-width: $max-width;
+  padding: $base-spacing;
+
+  @include medium-screen-up {
+    display: flex;
+  }
+
+  &__image {
+    flex: 2;
+    padding: 0 $base-spacing;
+    img { max-width: 100%; }
+  }
+
+  &__content {
+    flex: 3;
+    padding: 0 $base-spacing;
+  }
+
+  &__headline {
+    margin-top: 0;
+  }
+
+  &__text {}
+}

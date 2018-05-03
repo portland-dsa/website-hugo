@@ -1,23 +1,8 @@
-@import
-'include/variables',
-'include/mixins';
+@import "normalize";
+@import "fonts";
+@import "variables";
+@import "mixins";
+@import "base";
+@import "layout";
 
-// Main base styles
-@import
-'include/base',
-'include/normalize',
-'include/fonts',
-'include/forms',
-'shared/global',
-'main';
-
-// Build upon our base
-@import
-'shared/header',
-'shared/footer';
-
-// Page-specific styles
-@import
-'pages/home',
-'pages/join-us',
-'pages/calendar';
+@import "components/all";
