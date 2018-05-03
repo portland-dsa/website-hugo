@@ -1,6 +1,7 @@
 ---
 title: Who We Are
 callout: '???'
+type: about
 ---
 We are a group of democratic socialists based in the Portland metro area who are committed to spreading our movement through outreach, education, organizing legislative work, electoral work, collaboration with other organizations and direct action. We meet regularly as a chapter and in groups based on our interests.
 

@@ -1,7 +1,14 @@
-<div class="ctaCard">
-  <h1 class="ctaCard__headline">Ready to join?</h1>
-  <p class="ctaCard__content">
-    Let’s go! We’ll help you become a national member, and get you on board locally.
+<div class="card">
+  <h1 class="card__headline">
+    {{ $.Site.Data.cta.join.headline }}
+  </h1>
+
+  <p class="card__content">
+    {{ $.Site.Data.cta.join.content }}
   </p>
-  <a class="button ctaCard__button">Join Us</a>
+
+  <a class="button card__button"
+     href="{{ $.Site.Data.cta.join.action.url }}">
+    {{ $.Site.Data.cta.join.action.text }}
+  </a>
 </div>

@@ -19,3 +19,6 @@ menu:
   - name: Join us
     url: /join/
     weight: 50
+
+params:
+  mailChimpSignup: "https://portlanddsa.us17.list-manage.com/subscribe/post?u=82d186d1f2169112a7c9eaa59&amp;id=d4cf65a40f"

@@ -1,16 +1,7 @@
 {{ define "main" }}
 <main class="main">
-  <div class="main__greeting--followedByOverlapEffectElem">
-    {{ .Params.callout | markdownify }}
-  </div>
-
-  <div class="containerPageContentArea">
-    <div class="pageContentArea">
-      <div class="pageContentArea__image">
-        <img src="{{ .Params.image.src }}" alt="{{ .Params.image.alt }}">
-      </div>
-      {{ .Content }}
-    </div>
+  <div class="main__greeting">
+    {{ .Content }}
   </div>
 
   <div class="containerCta">

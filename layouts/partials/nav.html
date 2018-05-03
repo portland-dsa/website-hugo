@@ -1,23 +1,29 @@
-<header class="header--isClosedMenu">
-  <div class="nameplate">
-    <div class="nameplate__logo"></div>
-    <h1 class="nameplate__title">
+<header class="site-header">
+  <div class="site-header__logo">
+    <img alt="" src="/assets/images/portland-dsa-logo.svg"/>
+  </div>
+  <div class="site-header__banner">
+    <h1 class="site-header__title">
       <a href="/">
-        Democratic Socialists <span class="forcedLinebreak"></span> of America<br>
+        Democratic Socialists
+        <span class="forcedLinebreak"></span> of America<br>
         <span class="nameplate__title__cityState">Portland, Oregon</span>
       </a>
     </h1>
+
+    <nav class="nav">
+      <button class="nav__toggle-button">Menu</button>
+      <ul class="nav__menu">
+        {{ range .Site.Menus.main }}
+        <li class="nav__menu-item">
+          <a href="{{ .URL }}" class="nav__menu-item__link">
+            {{ .Name }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </nav>
   </div>
 
-  <nav class="nav">
-    <a class="nav__toggleButton" href="">Menu</a>
-    <ul class="nav__itemContainer">
-      {{ range .Site.Menus.main }}
-      <li class="nav__item">
-        <a href="{{ .URL }}" class="nav__itemLink"><span>{{ .Name }}</span></a>
-      </li>
-      {{ end }}
-    </ul>
-  </nav>
 </header>
 
