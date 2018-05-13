@@ -7,8 +7,6 @@ callout: >-
 ---
 ## Becoming a Dues-paying Member
 
-Test test
-
 The Democratic Socialists of America is funded by our membership -- not corporations or wealthy donors. This ensures that DSA members are in full control of the organization. By paying dues, DSA members self-fund our own tools of liberation. As a dues-paying member, you have the right to vote in your local chapter meetings.
 
 ## Annual and Monthly Dues
