@@ -12,7 +12,7 @@ blocks:
       From chapter meetings and happy hours to demonstrations, actions, and
       community events,  there’s something for everyone. And it’s almost all
       open to newcomers.  [View our calendar of events](/calendar/)
-    blockImage: 'http://via.placeholder.com/400x300'
+    blockImage: /assets/images/uploads/a.jpg
     blockTitle: Find Upcoming Events
   - blockContent: >-
       Ready to join? We’ll help you become a national member, and get you on
