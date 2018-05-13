@@ -1,10 +1,10 @@
 ---
 title: Who We Are
-callout: >-
-  As Democratic Socialists, we believe that both the economy and society should 
-  be run democratically - to meet public needs, and to fight oppression based on 
-  class, gender, and race.
 type: about
+callout: >-
+  As democratic socialists, we believe that both the economy and society should
+  be run democratically to meet public needs. We work to fight oppression based
+  on  class, gender, and race.
 ---
 We are a group of democratic socialists based in the Portland metro area who are committed to spreading our movement through outreach, education, organizing legislative work, electoral work, collaboration with other organizations and direct action. We meet regularly as a chapter and in groups based on our interests.
 
