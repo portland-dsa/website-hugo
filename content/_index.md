@@ -9,7 +9,7 @@ blocks:
     blockImage: /assets/images/uploads/a.jpg
     blockTitle: What's Democratic Socialism?
   - blockContent: >-
-      On June 24th enjoy a full day of socialist education and fun in the sun at
+      On June 24 enjoy a full day of socialist education and fun in the sun at
       our [Socialism Summer Day
       School](https://www.brownpapertickets.com/event/3416439)! From chapter
       meetings and happy hours to demonstrations, actions, and community
