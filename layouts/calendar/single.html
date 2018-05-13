@@ -1,16 +1,19 @@
 {{ define "main" }}
-<main class="main">
-  <!-- <div class="main__greeting--followedByOverlapEffectElem">
-    {{ .Params.callout | markdownify }}
-  </div> -->
+<div class="container">
+  {{ .Content }}
 
-  <div class="containerPageContentArea">
-    <iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=dsaportlandoregon%40gmail.com&ctz=America/Los_Angeles"/>
+  <iframe class="calendar"
+          style="width: 100%; height: 800px;"
+          src="https://calendar.google.com/calendar/embed?src=dsaportlandoregon%40gmail.com&ctz=America/Los_Angeles"/>
+</div>
+
+<div class="fullwidth-section">
+  <div class="container">
+    {{ .Content }}
   </div>
-
-  <div class="containerCta">
+  <div class="container container--grid">
     {{ partial "cta-join.html" . }}
     {{ partial "cta-subscribe.html" . }}
   </div>
-</main>
+</div>
 {{ end }}

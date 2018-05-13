@@ -1,56 +1,98 @@
 {{ define "main" }}
-<main class="main">
-  <div class="main__greeting--followedByOverlapEffectElem">
-    {{ .Params.callout | markdownify }}
+<div class="container">
+  <div class="intro">
+    {{ .Content }}
   </div>
+</div>
+<div class="fullwidth-section">
+  <div class="container">
 
-  <div class="containerPageContentArea">
-    <div class="pageContentArea">
-      <div class="pageContentArea__image">
-        <img src="{{ .Params.image.src }}" alt="{{ .Params.image.alt }}">
-      </div>
-      {{ .Content }}
-      <!-- Begin MailChimp Signup Form -->
-      <div id="mc_embed_signup">
-        <form action="https://portlanddsa.us17.list-manage.com/subscribe/post?u=82d186d1f2169112a7c9eaa59&amp;id=d4cf65a40f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate formWorkWithUs" target="_blank" novalidate>
-          <div class="mc-field-group">
-            <input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First name">
+    <!-- Begin MailChimp Signup Form -->
+    <div id="mc_embed_signup">
+      <form action="{{ $.Site.Params.mailChimpSignup }}"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+            class="validate formWorkWithUs"
+            target="_blank"
+            novalidate>
+
+        <div class="mc-field-group">
+          <input type="text"
+                 value=""
+                 name="FNAME"
+                 class=""
+                 id="mce-FNAME"
+                 placeholder="First name">
+        </div>
+
+        <div class="mc-field-group">
+          <input type="text"
+                 value=""
+                 name="LNAME"
+                 class=""
+                 id="mce-LNAME"
+                 placeholder="Last name">
+        </div>
+
+        <div class="mc-field-group">
+          <input type="email"
+                 value=""
+                 name="EMAIL"
+                 class="required email"
+                 id="mce-EMAIL"
+                 placeholder="Email address">
+        </div>
+
+        <div class="mc-field-group">
+          <input type="text"
+                 value=""
+                 name="MMERGE3"
+                 class=""
+                 id="mce-MMERGE3"
+                 placeholder="Zip code">
+        </div>
+
+        <div class="mc-field-group">
+          <input type="text"
+                 name="MMERGE4"
+                 class=""
+                 value=""
+                 id="mce-MMERGE4"
+                 placeholder="Phone number">
+        </div>
+
+        <div id="mce-responses" class="mce-responses">
+          <div id="mce-error-response"
+               class="mce-responses__response is-error"
+               style="display:none">
           </div>
-
-          <div class="mc-field-group">
-            <input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last name">
+          <div id="mce-success-response"
+               class="mce-responses__response is-success"
+               style="display:none">
           </div>
+        </div>
 
-          <div class="mc-field-group">
-            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address">
-          </div>
-
-          <div class="mc-field-group">
-            <input type="text" value="" name="MMERGE3" class="" id="mce-MMERGE3" placeholder="Zip code">
-          </div>
-
-          <div class="mc-field-group">
-            <input type="text" name="MMERGE4" class="" value="" id="mce-MMERGE4" placeholder="Phone number">
-          </div>
-
-          <div id="mce-responses" class="mce-responses">
-            <div id="mce-error-response" class="mce-responses__response is-error" style="display:none"></div>
-            <div id="mce-success-response" class="mce-responses__response is-success" style="display:none"></div>
-          </div>
-
-          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_82d186d1f2169112a7c9eaa59_d4cf65a40f" tabindex="-1" value=""></div>
-          <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        <!-- real people should not fill this in and expect good things - do
+             not remove this or risk form bot signups -->
+        <div style="position: absolute; left: -5000px;"
+             aria-hidden="true">
+          <input type="text"
+                 name="b_82d186d1f2169112a7c9eaa59_d4cf65a40f"
+                 tabindex="-1" value="">
+        </div>
+        <div class="clear">
+          <input type="submit"
+                 value="Subscribe"
+                 name="subscribe"
+                 id="mc-embedded-subscribe"
+                 class="button">
         </div>
       </form>
-      </div>
-      <!--End mc_embed_signup-->
     </div>
-  </div>
-
-  <div class="containerCta">
-    {{ partial "cta-join.html" . }}
-    {{ partial "cta-subscribe.html" . }}
-  </div>
-</main>
+    <!--End mc_embed_signup-->
+</div>
+<div class="container container--grid">
+  {{ partial "cta-subscribe.html" . }}
+</div>
 {{ end }}

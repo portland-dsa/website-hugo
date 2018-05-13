@@ -1,0 +1,30 @@
+.container {
+  margin: 0 auto;
+  max-width: $max-width;
+  padding: $base-spacing;
+
+  &--grid {
+    @include medium-screen-up {
+      display: grid;
+      grid-gap: $base-spacing * 1.5;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    &__item {
+      margin-bottom: $base-spacing;
+      @include medium-screen-up { margin-bottom: 0; }
+    }
+  }
+}
+
+.fullwidth-section {
+  background-color: $color-gray-light;
+  padding: $base-spacing;
+
+  & > .container {
+    @include medium-screen-up {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.topic-strip {
+  margin: 0 auto;
+  max-width: $max-width;
+  padding: $base-spacing;
+
+  @include medium-screen-up { display: flex;}
+
+  &__image {
+    flex: 2;
+
+    @include medium-screen-up { padding-right: $base-spacing; }
+
+    img {
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  &__content {
+    flex: 3;
+    padding-top: $base-spacing / 2;
+
+    @include medium-screen-up {
+      font-size: $type-size-medium;
+      padding-left: $base-spacing;
+      padding-top: 0;
+    }
+  }
+
+  &__headline { margin-top: 0; }
+  &__text {}
+}

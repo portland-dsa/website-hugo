@@ -1,21 +1,22 @@
 {{ define "main" }}
-<main class="main">
-  <div class="main__greeting--followedByOverlapEffectElem">
-    {{ .Params.callout | markdownify }}
-  </div>
 
-  <div class="containerPageContentArea">
-    <div class="pageContentArea">
-      <div class="pageContentArea__image">
-        <img src="{{ .Params.image.src }}" alt="{{ .Params.image.alt }}">
-      </div>
-      {{ .Content }}
-    </div>
+{{ with .Params.callout }}
+<div class="container">
+  <div class="intro">
+    <p>
+      {{ . }}
+    </p>
   </div>
+</div>
+{{ end }}
 
-  <div class="containerCta">
+<div class="fullwidth-section">
+  <div class="container">
+    {{ .Content }}
+  </div>
+  <div class="container container--grid">
     {{ partial "cta-join.html" . }}
     {{ partial "cta-subscribe.html" . }}
   </div>
-</main>
+</div>
 {{ end }}

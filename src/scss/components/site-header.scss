@@ -1,0 +1,68 @@
+.site-header {
+  align-items: flex-end;
+  display: flex;
+  margin: (calc(#{$nav-menu-height} + #{$base-spacing})) $base-spacing 0;
+  max-width: $max-width;
+  padding: 0 $base-spacing;
+
+  @include medium-screen-up { margin: 0 auto; }
+
+  &__title,
+  &__subtitle {
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+      color: $color-red;
+      text-decoration: none;
+    }
+  }
+
+  .mobile-line-break {
+    @include medium-screen-up { display: none; }
+  }
+
+  &__title {
+    font-size: 1.4em;
+    line-height: 1;
+    margin-bottom: 0;
+
+    @include medium-screen-up {
+      font-size: 2.125em;
+      margin-bottom: $base-spacing;
+    }
+  }
+
+  &__subtitle { color: $color-black; }
+
+  &__logo {
+    background-color: $color-red;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: $base-spacing / 2;
+
+    @include medium-screen-up { margin-right: 0; }
+
+    img {
+      padding: $base-spacing;
+      width: 80px;
+
+      @include medium-screen-up {
+        height: 150px;
+        width: 125px;
+      }
+    }
+  }
+
+  &__banner {
+    padding: 0 $base-spacing / 2;
+
+    @include medium-screen-up {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding-left: $base-spacing * 2;
+    }
+  }
+}

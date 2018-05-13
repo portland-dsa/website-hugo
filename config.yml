@@ -1,0 +1,28 @@
+baseURL: "https://portlanddsa.org/"
+languageCode: "en-us"
+title: "Portland DSA"
+
+menu:
+  main:
+  - name: Who we are
+    url: /who-we-are/
+    weight: 20
+  - name: What is Democratic Socialism
+    url: /what-is-democratic-socialism/
+    weight: 30
+  - name: Calendar
+    url: /calendar/
+    weight: 40
+  - name: Join us
+    url: /join/
+    weight: 50
+
+params:
+  mailChimpSignup: "https://portlanddsa.us17.list-manage.com/subscribe/post?u=82d186d1f2169112a7c9eaa59&amp;id=d4cf65a40f"
+  social:
+    - name: Twitter
+      url: "https://twitter.com/portlanddsa"
+    - name: Facebook
+      url: "https://www.facebook.com/PortlandDSA"
+    - name: Instagram
+      url: "https://www.instagram.com/portlanddsa"
