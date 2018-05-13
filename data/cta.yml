@@ -2,8 +2,7 @@
 join:
   headline: Ready to join?
   content: >-
-    Let's go! We'll help you become a national member and get you on
-    board locally.
+    Ready to join? We’ll help you become a national member, and get you on board locally.
   action:
-    text: Join us
-    url: "https://act.dsausa.org/donate/membership/"
+    text: Join us!
+    url: "/join/"
