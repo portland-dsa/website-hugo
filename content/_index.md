@@ -6,7 +6,7 @@ blocks:
       oriented to the common good by granting all members equal political and
       economic power. [Learn more about democratic
       socialism](/what-is-democratic-socialism/)
-    blockImage: 'http://via.placeholder.com/400x300'
+    blockImage: /assets/images/uploads/a.jpg
     blockTitle: What's Democratic Socialism?
   - blockContent: >-
       From chapter meetings and happy hours to demonstrations, actions, and
