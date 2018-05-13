@@ -8,7 +8,3 @@ Democratic socialism is the political conviction that society should be oriented
 We stand against an economic order based on private profit, inequalities in wealth and power, and oppression based on race, class, sex, sexual orientation, gender expression, disability status, age, religion, and national origin. We reject the brutality and violence inflicted in defense of the status quo.
 
 Our members work on initiatives that build our shared power toward this broad vision.
-
-
-
-test
