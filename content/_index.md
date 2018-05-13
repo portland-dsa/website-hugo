@@ -2,10 +2,10 @@
 title: Portland DSA
 blocks:
   - blockContent: >-
-      It’s the idea that XYZ. Democratic socialists believe that a just economy
-      and society should be run democratically, and that something something
-      economics. Pro-woman,  pro-immigrant, anti-racist. [Learn more about
-      democratic socialism](/what-is-democratic-socialism/)
+      Democratic socialism is the political conviction that society should be
+      oriented to the common good by granting all members equal political and
+      economic power. [Learn more about democratic
+      socialism](/what-is-democratic-socialism/)
     blockImage: 'http://via.placeholder.com/400x300'
     blockTitle: What's Democratic Socialism?
   - blockContent: >-
