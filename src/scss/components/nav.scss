@@ -1,30 +1,77 @@
 .nav {
+  @include shadow;
+  background-color: $color-red;
+  height: $nav-menu-height;
+  left: 0;
+  position: fixed;
+  text-align: right;
+  top: 0;
+  width: 100%;
 
-  &__toggle-button {
-    display: block;
-    @include medium-screen-up { display: none; }
+  @include medium-screen-up {
+    background-color: initial;
+    box-shadow: none;
+    height: initial;
+    position: static;
+    text-align: left;
   }
 
   &__menu {
+    background-color: $color-red;
     display: none;
-    padding: 0;
+    list-style-type: none;
     margin: 0;
+    padding: $base-spacing;
+    text-align: left;
+    width: 100%;
+    z-index: -1;
 
     @include medium-screen-up {
+      background-color: transparent;
       display: flex;
-      flex-direction: row;
+      flex-flow: row no-wrap;
       justify-content: space-between;
-      list-style-type: none;
+      padding: 0;
     }
 
-    &.is-mobile-visible {
-      display: block;
-    }
+    &.is-mobile-visible { display: block; }
   }
 
   &__menu-item {
-    &__link {
-      &.is-current { font-weight: bold; }
+    margin: $base-spacing / 2;
+    padding: $base-spacing / 2;
+
+    @include medium-screen-up {
+      margin: 0;
+      padding: 0;
+    }
+
+    &__link,
+    a:link, a:visited {
+      color: $color-white;
+      font-size: 1.35rem;
+      font-weight: bold;
+      text-decoration: none;
+
+      @include medium-screen-up {
+        color: $color-gray;
+        font-size: 1.25em;
+        font-weight: normal;
+      }
+    }
+  }
+
+  &__toggle-button {
+    @include button-reset;
+    background-color: $color-red-dark;
+    border-radius: 3px;
+    color: $color-white;
+    line-height: 1;
+    margin: $base-spacing / 2;
+    padding: $base-spacing / 2 $base-spacing;
+
+    @include medium-screen-up {
+      display: none;
     }
   }
 }

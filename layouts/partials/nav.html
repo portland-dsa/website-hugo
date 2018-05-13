@@ -1,19 +1,21 @@
 <header class="site-header">
   <div class="site-header__logo">
-    <img alt="" src="/assets/images/portland-dsa-logo.svg"/>
+    <img alt="Portland DSA" src="/assets/images/portland-dsa-logo.svg"/>
   </div>
   <div class="site-header__banner">
     <h1 class="site-header__title">
       <a href="/">
-        Democratic Socialists
-        <span class="forcedLinebreak"></span> of America<br>
-        <span class="nameplate__title__cityState">Portland, Oregon</span>
+        Democratic Socialists <br class="mobile-line-break" />of America<br>
+        <span class="site-header__subtitle">Portland, Oregon</span>
       </a>
     </h1>
 
     <nav class="nav">
-      <button class="nav__toggle-button">Menu</button>
-      <ul class="nav__menu">
+      <button class="nav__toggle-button" onclick="toggleMobileMenu()">Menu</button>
+      <ul class="nav__menu js-mobile-menu">
+        <li class="nav__menu-item mobile-only">
+          <a href="/" class="nav__menu-item__link">DSA Portland Oregon</a>
+        </li>
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
         <li class="nav__menu-item">

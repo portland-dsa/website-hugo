@@ -4,9 +4,16 @@
   padding: $base-spacing;
 
   &--grid {
-    display: grid;
-    grid-gap: $base-spacing;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    @include medium-screen-up {
+      display: grid;
+      grid-gap: $base-spacing * 1.5;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    &__item {
+      margin-bottom: $base-spacing;
+      @include medium-screen-up { margin-bottom: 0; }
+    }
   }
 }
 
@@ -15,7 +22,9 @@
   padding: $base-spacing;
 
   & > .container {
-    padding-left: 0;
-    padding-right: 0;
+    @include medium-screen-up {
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 }

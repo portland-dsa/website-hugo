@@ -1,4 +1,5 @@
 // Colors
+$color-black: #000;
 $color-gray-light: #f1f1f1;
 $color-gray: #909090;
 $color-green: #00a430;
@@ -16,7 +17,7 @@ $base-background-color: $color-white;
 $base-border-style: 1px solid $color-gray;
 $base-border-radius: 5px;
 $base-font-family: "Klima";
-$base-line-height: 1.4;
+$base-line-height: 1.35;
 
 // Block stuff
 $base-block-spacing: $base-spacing;
@@ -31,3 +32,4 @@ $type-size-large: 1.5em;
 
 // Layout
 $max-width: 900px;
+$nav-menu-height: 50px;

@@ -10,3 +10,18 @@
   }
 }
 
+@mixin button-reset {
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+}
+
+@mixin shadow {
+  box-shadow: 0 0 2px 1px transparentize($color-black, 0.65);
+}
+

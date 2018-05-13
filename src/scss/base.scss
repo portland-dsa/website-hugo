@@ -8,4 +8,23 @@ body {
 p {
   font-size: $type-size-medium;
   line-height: $base-line-height;
+
+  @include medium-screen-up {
+    font-size: 1.25em;
+  }
+}
+
+a:link,
+a:visited {
+  color: $color-red;
+}
+
+a:hover,
+a:active {
+  color: $color-red-dark;
+}
+
+::selection {
+  background-color: $color-black;
+  color: $color-white;
 }

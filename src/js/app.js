@@ -1,5 +1,10 @@
 import '../scss/app.scss'
 
+window.toggleMobileMenu = function () {
+  let mobileMenu = document.querySelector('.js-mobile-menu')
+  mobileMenu.classList.toggle('is-mobile-visible')
+}
+
 // ====================
 // = Helper functions =
 // ====================

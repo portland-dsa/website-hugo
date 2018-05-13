@@ -1,5 +1,12 @@
-.button {
+.button,
+a.button {
   background-color: $color-green;
+  border: 0;
   color: $color-white;
+  font-size: $type-size-medium;
   padding: $base-spacing / 2 $base-spacing;
+  text-decoration: none;
 }
+
+
+

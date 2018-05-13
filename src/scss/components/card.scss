@@ -4,7 +4,33 @@
   border-radius: $base-border-radius;
   padding: $base-spacing;
 
-  &__headline {}
+  &__headline {
+    margin-bottom: $base-spacing / 2;
+    margin-top: $base-spacing / 2;
+  }
+
   &__content {}
   &__button {}
+
+  &__signup {
+    @media screen and (min-width: 410px) {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  &__signup-input {
+    border-radius: 0;
+    flex: 3;
+    font-size: 1.25rem;
+    padding-left: $base-spacing / 2;
+    min-width: 175px;
+    max-width: 90%;
+  }
+
+  &__signup-button {
+    border-radius: 0;
+    flex: 1;
+    min-width: 125px;
+  }
 }
