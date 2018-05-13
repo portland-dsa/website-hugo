@@ -11,7 +11,7 @@ The Democratic Socialists of America is funded by our membership -- not corporat
 
 ## Annual and Monthly Dues
 
-You can choose to pay dues annually or monthly. All annual dues are retained by the national organization. Monthly dues are split between the national organization and local chapters, so we encourage you to select that option if possible. Remember that dues are on a sliding scale, and that no one is turned away for lack of funds. Sign up [here](http://dsausa.org/join).
+You can choose to pay dues annually or monthly. All annual dues are retained by the national organization. Monthly dues are split between the national organization and local chapters, so we encourage you to select that option if possible. Remember that dues are on a sliding scale, and that no one is turned away for lack of funds. Sign up [here](http://dsausa.org/join), and be sure to also join our local mailing list using the form below.
 
 ## Work with Us Locally
 
@@ -19,4 +19,4 @@ Ready to organize in Portland? Come to the [next general meeting](/calendar) or 
 
 ## Mailing List
 
-Not sure yet? Sign up for our mailing list using the form below to get updates on our events and other content a few times per month.
+Not sure yet? Sign up for the Portland DSA mailing list using the form below to get updates on our events a few times per month.
