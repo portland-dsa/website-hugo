@@ -11,7 +11,7 @@ The Democratic Socialists of America is funded by our membership -- not corporat
 
 ## Annual and Monthly Dues
 
-You can choose to pay dues annually or monthly. All annual dues are retained by the national organization. Monthly dues are split between the national organization and local chapters, so we encourage you to select that option if possible. Remember that dues are on a sliding scale, and that no one is turned away for lack of funds.
+You can choose to pay dues annually or monthly. All annual dues are retained by the national organization. Monthly dues are split between the national organization and local chapters, so we encourage you to select that option if possible. Remember that dues are on a sliding scale, and that no one is turned away for lack of funds. Sign up [here](http://dsausa.org/join).
 
 ## Work with Us Locally
 
