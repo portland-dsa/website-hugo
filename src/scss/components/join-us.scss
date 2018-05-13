@@ -1,0 +1,31 @@
+.join-us {
+  display: flex;
+  justify-content: center;
+
+  &__inner {
+    @include medium-screen-up {
+      max-width: 75%;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      text-align: center;
+    }
+
+    .button {
+      display: block;
+      text-align: center;
+      margin: 0 auto $base-spacing * 3;
+    }
+
+    input {
+      font-size: $type-size-large;
+      margin-bottom: $base-spacing;
+      width: 100%;
+    }
+  }
+}
