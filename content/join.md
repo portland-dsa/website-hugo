@@ -1,5 +1,5 @@
 ---
-title: America's Largest Socialist Organization
+title: America's Largest Socialist Organization Foo
 callout: >-
   DSA is growing rapidly, both locally and nationally. Join us today and be a
   part of the movement.
