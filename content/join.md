@@ -15,4 +15,4 @@ You can choose to pay dues annually or monthly. All annual dues are retained by 
 
 ## Work with Us Locally
 
-Ready to organize in Portland? Come to the [next general meeting](/calendar) or another event to meet your new comrades in person. Outside of meetings, our day-to-day communications are conducted in the chapter's Slack workspace and on Google Drive. After signing up on the national website, please forward the confirmation email (from Maria Svart) to <mailto:info@portlanddsa.org> and we'll send you invites to both platforms.
+Ready to organize in Portland? Come to the [next general meeting](/calendar) or another event to meet your new comrades in person. Outside of meetings, our day-to-day communications are conducted in the chapter's Slack workspace and on Google Drive. After signing up on the national website, please forward the confirmation email (from Maria Svart) to <mailto:info@portlanddsa.org> and we'll send you invites to both platforms. You can also [donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UEP3W7TR2GCSS) to help support our chapter.
