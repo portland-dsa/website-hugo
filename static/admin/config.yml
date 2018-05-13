@@ -37,6 +37,7 @@ collections:
         name: "who-we-are"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Type", name: "type", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Callout", name: "callout", widget: "markdown"}
       - file: "content/what-is-democratic-socialism.md"
@@ -44,6 +45,7 @@ collections:
         name: "what-is-democratic-socialism"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Type", name: "type", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Callout", name: "callout", widget: "markdown"}
       - file: "content/calendar.md"
@@ -51,6 +53,7 @@ collections:
         name: "calendar"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Type", name: "type", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Callout", name: "callout", widget: "markdown"}
       - file: "content/join.md"
@@ -58,5 +61,6 @@ collections:
         name: "join"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Type", name: "type", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Callout", name: "callout", widget: "markdown"}
