@@ -17,7 +17,7 @@ blocks:
   - blockContent: >-
       Ready to join? We’ll help you become a national member, and get you on
       board locally.  [Join us!](/join/)
-    blockImage: 'http://via.placeholder.com/400x300'
+    blockImage: /assets/images/uploads/dsa_pdx_steering_committee.jpg
     blockTitle: Organize with us
 ---
 We are a local chapter of the **Democratic Socialists of America**, the largest socialist organization in the United States. We organize together for economic and social justice in Portland and nation-wide.
