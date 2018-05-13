@@ -61,7 +61,6 @@ collections:
         name: "join"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Type", name: "type", widget: "string"}
           - {label: "Type", name: "type", widget: "hidden", default: "join"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Callout", name: "callout", widget: "markdown"}
