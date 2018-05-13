@@ -2,7 +2,7 @@
 join:
   headline: Ready to join?
   content: >-
-    Ready to join? We’ll help you become a national member, and get you on board locally.
+    We’ll help you become a national member, and get you on board locally.
   action:
     text: Join us!
     url: "/join/"
