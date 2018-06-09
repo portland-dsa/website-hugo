@@ -5,7 +5,7 @@
   max-width: $max-width;
   padding: 0 $base-spacing;
 
-  @include medium-screen-up { margin: 0 auto; }
+  @include large-screen-up { margin: 0 auto; }
 
   &__title,
   &__subtitle {
@@ -19,7 +19,7 @@
   }
 
   .mobile-line-break {
-    @include medium-screen-up { display: none; }
+    @include large-screen-up { display: none; }
   }
 
   &__title {
@@ -27,7 +27,7 @@
     line-height: 1;
     margin-bottom: 0;
 
-    @include medium-screen-up {
+    @include large-screen-up {
       font-size: 2.125em;
       margin-bottom: $base-spacing;
     }
@@ -41,13 +41,13 @@
     background-repeat: no-repeat;
     margin-right: $base-spacing / 2;
 
-    @include medium-screen-up { margin-right: 0; }
+    @include large-screen-up { margin-right: 0; }
 
     img {
       padding: $base-spacing;
       width: 80px;
 
-      @include medium-screen-up {
+      @include large-screen-up {
         height: 150px;
         width: 125px;
       }
@@ -57,7 +57,7 @@
   &__banner {
     padding: 0 $base-spacing / 2;
 
-    @include medium-screen-up {
+    @include large-screen-up {
       display: flex;
       flex: 1;
       flex-direction: column;
