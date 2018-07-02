@@ -1,8 +1,10 @@
 {{ define "main" }}
+{{ $title := .Title }}
 
 {{ with .Params.callout }}
 <div class="container">
   <div class="intro">
+    {{ with $title }}<h1>{{ . }}</h1>{{ end }}
     <p>
       {{ . }}
     </p>

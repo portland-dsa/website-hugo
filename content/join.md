@@ -1,5 +1,5 @@
 ---
-title: America's Largest Socialist Organization
+title: Join America's Largest Socialist Organization
 type: join
 callout: >-
   DSA is growing rapidly, both locally and nationally. Join us today and be a

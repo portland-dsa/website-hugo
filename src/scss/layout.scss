@@ -26,5 +26,14 @@
       padding-left: 0;
       padding-right: 0;
     }
+
+    ul {
+      padding-left: $base-spacing / 2;
+    }
+
+    li {
+      font-size: $type-size-medium;
+      line-height: 1.8;
+    }
   }
 }
