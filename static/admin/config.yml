@@ -64,3 +64,11 @@ collections:
           - {label: "Type", name: "type", widget: "hidden", default: "join"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Callout", name: "callout", widget: "markdown"}
+      - file: "content/thanks.md"
+        label: "Thank You"
+        name: "thanks"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Type", name: "type", widget: "hidden", default: "about"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Callout", name: "callout", widget: "markdown"}
