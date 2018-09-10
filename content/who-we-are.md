@@ -3,7 +3,7 @@ title: Who We Are
 type: about
 callout: >-
   We are a local chapter of the Democratic Socialists of America (DSA), the
-  largest socialist organization in the United States with over 47,000 members
+  largest socialist organization in the United States with over 50,000 members
   nationally and over 1,000 members locally. DSA is a "big tent," multi-tendency
   organization that includes people with a variety of views on socialism and how
   to achieve it. We believe that free and open debate is beneficial towards our
