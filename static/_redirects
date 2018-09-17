@@ -1,2 +1,3 @@
-/summerdayschool      https://www.brownpapertickets.com/event/3416439
-/donate               https://www.z2systems.com/np/clients/portlanddsa/donation.jsp
+/summerdayschool            https://www.brownpapertickets.com/event/3416439
+/donate                     https://www.z2systems.com/np/clients/portlanddsa/donation.jsp
+http://portlanddsa.org/*    https://www.portlanddsa.org/:splat 301!
