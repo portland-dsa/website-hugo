@@ -2,14 +2,14 @@
 title: Portland DSA
 blocks:
   - blockContent: >-
-      By vote of the general membership, Portland DSA endorses YES on 26-201
-      (Clean Energy) and NO on Measures 103, 104, 105, and 106! Print out a
-      [flyer](/assets/images/uploads/dsa-2018-ballot-measure-guide.pdf) to post
-      in your neighborhood, or share this
+      NEW! By vote of the general membership, Portland DSA endorses YES on
+      26-201 (Clean Energy) and NO on Measures 103, 104, 105, and 106! Print out
+      a [flyer](/assets/images/uploads/dsa-2018-ballot-measure-guide.pdf) to
+      post in your neighborhood, or share this
       [image](/assets/images/uploads/dsa-2018-ballot-measure-guide.png) on
       social media.
     blockImage: /assets/images/uploads/2018ballotsmall.png
-    blockTitle: NEW 2018 Ballot Measure Endorsements
+    blockTitle: 2018 Ballot Measure Endorsements
   - blockContent: >-
       Democratic socialism is the political conviction that society should be
       oriented to the common good by granting all members equal political and
