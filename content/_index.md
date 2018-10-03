@@ -4,7 +4,10 @@ blocks:
   - blockContent: >-
       By vote of the general membership, Portland DSA endorses YES on 26-201
       (Clean Energy) and NO on Measures 103, 104, 105, and 106! Print out a
-      flyer to post in your neighborhood, or share this image on social media.
+      [flyer](/assets/images/uploads/dsa-2018-ballot-measure-guide.pdf) to post
+      in your neighborhood, or share this
+      [image](/assets/images/uploads/dsa-2018-ballot-measure-guide.png) on
+      social media.
     blockImage: /assets/images/uploads/2018ballotsmall.png
     blockTitle: NEW 2018 Ballot Measure Endorsements
   - blockContent: >-
