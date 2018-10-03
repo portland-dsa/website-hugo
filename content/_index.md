@@ -7,9 +7,9 @@ blocks:
       Measures [103](https://noon103.org/), [104](https://noon104.org/),
       [105](https://orunited.org/), and [106](https://nocutstocare.com/) for the
       November 6, 2018 election. Print out a
-      [flyer](/assets/images/uploads/dsa-2018-ballot-measure-guide.pdf) to post
+      [FLYER](/assets/images/uploads/dsa-2018-ballot-measure-guide.pdf) to post
       in your neighborhood, or share this
-      [image](/assets/images/uploads/dsa-2018-ballot-measure-guide.png) on
+      [GRAPHIC](/assets/images/uploads/dsa-2018-ballot-measure-guide.png) on
       social media!
     blockImage: /assets/images/uploads/2018ballotsmall.png
     blockTitle: NEW! 2018 Endorsements
