@@ -11,7 +11,7 @@ blocks:
       in your neighborhood, or share this
       [GRAPHIC](/assets/images/uploads/dsa-2018-ballot-measure-guide.png) on
       social media!
-    blockImage: /assets/images/uploads/2018ballotsmall.png
+    blockImage: /assets/images/uploads/dsa-2018-ballot-small.png
     blockTitle: NEW! 2018 Endorsements
   - blockContent: >-
       Democratic socialism is the political conviction that society should be
