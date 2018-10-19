@@ -2,7 +2,7 @@
 title: Portland DSA
 blocks:
   - blockContent: >-
-      By vote of the general membership, Portland DSA endorses YES on Measures
+      By vote of our membership, Portland DSA endorses YES on Measures
       [26-200](https://www.honest-elections.com/) and
       [26-201](https://www.portlandcleanenergyinitiative.com/) and NO on
       Measures [103](https://noon103.org/), [104](https://noon104.org/),
