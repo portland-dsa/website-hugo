@@ -2,19 +2,6 @@
 title: Portland DSA
 blocks:
   - blockContent: >-
-      By vote of our membership, Portland DSA endorses YES on Measures
-      [26-200](https://www.honest-elections.com/) and
-      [26-201](https://www.portlandcleanenergyinitiative.com/) and NO on
-      Measures [103](https://noon103.org/), [104](https://noon104.org/),
-      [105](https://orunited.org/), and [106](https://nocutstocare.com/) for the
-      November 6, 2018 election. Print out a
-      [FLYER](/assets/images/uploads/dsa-2018-ballot-measure-guide.pdf) to post
-      in your neighborhood, or share this
-      [GRAPHIC](/assets/images/uploads/dsa-2018-ballot-measure-guide.png) on
-      social media!
-    blockImage: /assets/images/uploads/dsa-2018-ballot-small.png
-    blockTitle: NEW! 2018 Endorsements
-  - blockContent: >-
       Democratic socialism is the political conviction that society should be
       oriented to the common good by granting all members equal political and
       economic power. [Learn more about democratic
