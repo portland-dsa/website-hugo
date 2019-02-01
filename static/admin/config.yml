@@ -48,6 +48,14 @@ collections:
           - {label: "Type", name: "type", widget: "hidden", default: "about"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Callout", name: "callout", widget: "markdown"}
+      - file: "content/legislative-tracker.md"
+        label: "Legislative Tracker"
+        name: "legislative-tracker"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Type", name: "type", widget: "hidden", default: "legtracker"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Callout", name: "callout", widget: "markdown"}
       - file: "content/calendar.md"
         label: "Calendar"
         name: "calendar"

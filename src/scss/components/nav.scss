@@ -9,6 +9,8 @@
   width: 100%;
 
   @include large-screen-up {
+    max-width: $max-width;
+    margin: 1.5rem auto;
     background-color: initial;
     box-shadow: none;
     height: initial;

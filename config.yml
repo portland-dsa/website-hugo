@@ -10,15 +10,18 @@ menu:
   - name: What is democratic socialism?
     url: /what-is-democratic-socialism/
     weight: 30
+  - name: Legislative Tracker
+    url: /legislative-tracker/
+    weight: 40
   - name: Calendar
     url: /calendar/
-    weight: 40
+    weight: 50
   - name: Join us!
     url: /join/
-    weight: 50
+    weight: 60
   - name: Donate
     url: "https://www.z2systems.com/np/clients/portlanddsa/donation.jsp"
-    weight: 60
+    weight: 70
 
 params:
   mailChimpSignup: "https://portlanddsa.us17.list-manage.com/subscribe/post?u=82d186d1f2169112a7c9eaa59&amp;id=d4cf65a40f"
