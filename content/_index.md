@@ -21,5 +21,3 @@ blocks:
     blockTitle: Organize with Us
 ---
 We are a local chapter of the **Democratic Socialists of America**, the largest socialist organization in the United States. We organize together for economic and social justice in Portland and beyond.
-
-**NEW!** Nominations are open for our 2019 internal election. Use [this form](https://form.jotform.com/82997194684175) by February 2nd to nominate yourself or a comrade for Portland DSA co-chair, at-large Steering Committee member, or another position.
