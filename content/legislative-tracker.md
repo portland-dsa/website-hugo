@@ -8,7 +8,7 @@ callout: >-
 ---
 ## Climate
 
-Global catastrophe is looming, and without swift action [mass extinctions](https://en.wikipedia.org/wiki/Holocene_extinction) will only accelerate. Our fossil fuel economy is death on the installment plan; we must replace it and we must begin immediately.
+Global catastrophe is looming, and without swift action [mass extinctions](https://en.wikipedia.org/wiki/Holocene_extinction) will only accelerate. Our fossil fuel economy is death on an installment plan; we must replace it and we must begin immediately.
 
 ## Health
 
