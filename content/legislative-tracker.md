@@ -6,6 +6,8 @@ callout: >-
   our chapter's take on the bills they should and should not be passing. Below
   are the critical issues we're focused on.
 ---
+![Protestors hold a sign in front of the Oregon legislature reading "Dem super majority? Why such weak bills?".](/assets/images/uploads/leg-2019.jpg)
+
 ## Climate
 
 Global catastrophe is looming, and without swift action [mass extinctions](https://en.wikipedia.org/wiki/Holocene_extinction) will only accelerate. Our fossil fuel economy is death on an installment plan; we must replace it and we must begin immediately.
