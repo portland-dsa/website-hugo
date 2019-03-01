@@ -13,4 +13,4 @@ As socialists, we believe that both the economy and society should be run democr
 
 Unlike many traditional progressive organizations, DSA engages in political activity both within the existing United States electoral system and outside of it, with plenty of room for different approaches according to members’ own ideas. In DSA there's a place for everyone ready to join in the socialist struggle for a better world.
 
-Want to hear more about our recent activities? Check out _Bread and Rose City_ (1 2), our local newsletter. Our local bylaws and grievance contact and policy are also available.
+Want to hear more about our recent activities? Check out _Bread and Rose City_ ([1](https://portlanddsa.org/assets/images/uploads/bread-and-rose-city-001.pdf) [2](https://portlanddsa.org/assets/images/uploads/bread-and-rose-city-002.pdf)), our local newsletter. Our local [bylaws](https://portlanddsa.org/assets/images/uploads/portland-dsa-bylaws.pdf) and grievance [contact](mailto:dsapdxgrievance@gmail.com) and [policy](https://portlanddsa.org/assets/images/uploads/portland-dsa-grievance-policy.pdf) are also available.
