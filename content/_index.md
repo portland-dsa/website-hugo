@@ -21,3 +21,5 @@ blocks:
     blockTitle: Organize with Us
 ---
 We are a local chapter of the **Democratic Socialists of America**, the largest socialist organization in the United States. We organize together for economic and social justice in Portland and beyond.
+
+**NEW!** Check out the [latest issue](https://portlanddsa.org/assets/images/uploads/bread-and-rose-city-002.pdf) of _Bread and Rose City_, our local newsletter.
