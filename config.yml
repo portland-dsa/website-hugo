@@ -32,3 +32,5 @@ params:
       url: "https://www.facebook.com/PortlandDSA"
     - name: Instagram
       url: "https://www.instagram.com/portlanddsa"
+    - name: Medium
+      url: "https://medium.com/@dsaportlandoregon"
