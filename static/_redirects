@@ -3,4 +3,5 @@
 /foundations                https://portlanddsa.z2systems.com/event.jsp?event=19&
 /labor                      https://portlanddsa.z2systems.com/np/clients/portlanddsa/donation.jsp?campaign=5&&test=true
 /convention                 http://portlanddsa.z2systems.com/np/clients/portlanddsa/donation.jsp?campaign=7&&test=true 
+/mutual-aid-fund            https://portlanddsa.z2systems.com/np/clients/portlanddsa/donation.jsp?campaign=8&&test=true
 http://portlanddsa.org/*    https://www.portlanddsa.org/:splat 301!
