@@ -2,7 +2,7 @@
 title: Privacy Policy
 type: about
 callout: >-
-Welcome to portlanddsa.org, the website of the Democratic Socialists of America Portland, OR chapter (Portland DSA). We know that you care how information about you is used and shared. This Privacy Policy discloses the privacy practices for portlanddsa.org and applies solely to information collected by this website. We will not use or share your information with anyone except as described in this Privacy Policy. It will notify you of the following:
+Welcome to portlanddsa.org, the website of the Democratic Socialists of America, Portland, OR chapter (Portland DSA). We know that you care how information about you is used and shared. This Privacy Policy discloses the privacy practices for portlanddsa.org and applies solely to information collected by this website. We will not use or share your information with anyone except as described in this Privacy Policy. It will notify you of the following:
 - What personally identifiable information is collected from you through the website, how it is used and with whom it may be shared.
 - What choices are available to you regarding the use of your data.
 - The security procedures in place to protect the misuse of your information.
@@ -22,7 +22,7 @@ Welcome to portlanddsa.org, the website of the Democratic Socialists of America 
 
 
 ## INFORMATION COLLECTION, USE AND SHARING
-Portland DSA only has access to/collects personal information that you voluntarily give us via form submission. We will not sell or rent this information to anyone. By providing portlanddsa.org your email address, we may use your email address to send you other messages, such as newsletters, changes to features of portlanddsa.org, or changes to this Privacy Policy. If you do not want to receive such email messages, you may opt out by emailing info@portlanddsa.org. We may store personal information in locations outside the direct control of Portland DSA (for instance, on servers or databases co-located with hosting providers).
+Portland DSA only has access to/collects personal information that you voluntarily give us via form submission. We will not sell or rent this information to anyone. By providing portlanddsa.org your email address, we may use your email address to send you other messages, such as newsletters, changes to features of portlanddsa.org, or changes to this Privacy Policy. If you do not want to receive such email messages, you may opt out by emailing [info@portlanddsa.org](mailto:info@portlanddsa.org). We may store personal information in locations outside the direct control of Portland DSA (for instance, on servers or databases co-located with hosting providers).
 
  
 ## YOUR ACCESS TO AND CONTROL OVER INFORMATION
@@ -46,7 +46,7 @@ portlanddsa.org may send one or more cookies – a small text file containing a 
 This website contains links to other sites. Please be aware that we are not responsible for the content or privacy practices of such other sites. We encourage our users to be aware when they leave our site and to read the privacy statements of any other site that collects personally identifiable information.
 
  
-Portland DSA recognizes that credit card information is particularly sensitive. Credit card information cannot be accessed by portlanddsa.org. Secure transactions for this website are done via www.z2systems.com who use a thawte certificate to ensure secure transmission of your information. The Privacy Policy of Z2 Systems is located at https://www.neoncrm.com/privacy/.
+Portland DSA recognizes that credit card information is particularly sensitive. Credit card information cannot be accessed by portlanddsa.org. Secure transactions for this website are done via www.z2systems.com who use a Thawte certificate to ensure secure transmission of your information. The Privacy Policy of Z2 Systems is located at https://www.neoncrm.com/privacy/.
  
 
 ## PRIVACY AND SECURITY
@@ -64,6 +64,6 @@ Protecting the privacy of young children is especially important. For that reaso
 Our Privacy Policy may change from time to time and all updates will be posted on this page. Last updated on 03/25/2019.
 
  
-If you have any questions about this Privacy Policy, the practices of this site, or your dealings with this website, please contact us at info@portlanddsa.org
+If you have any questions about this Privacy Policy, the practices of this site, or your dealings with this website, please contact us at info@portlanddsa.org.
 
  
