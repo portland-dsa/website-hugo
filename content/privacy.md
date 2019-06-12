@@ -10,7 +10,7 @@ Welcome to portlanddsa.org, the website of the Democratic Socialists of America,
 ---
 
 ## PRIVACY POLICY
-Welcome to portlanddsa.org, the website of the Democratic Socialists of America Portland, OR chapter (Portland DSA). We know that you care how information about you is used and shared. This Privacy Policy discloses the privacy practices for portlanddsa.org and applies solely to information collected by this website. We will not use or share your information with anyone except as described in this Privacy Policy. It will notify you of the following:
+Welcome to portlanddsa.org, the website of the Democratic Socialists of America, Portland, OR chapter (Portland DSA). We know that you care how information about you is used and shared. This Privacy Policy discloses the privacy practices for portlanddsa.org and applies solely to information collected by this website. We will not use or share your information with anyone except as described in this Privacy Policy. It will notify you of the following:
 
 - What personally identifiable information is collected from you through the website, how it is used and with whom it may be shared.
 
