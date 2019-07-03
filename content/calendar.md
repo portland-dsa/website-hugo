@@ -15,7 +15,7 @@ padding: 10px;
 }
 </style>
 
-## Upcoming Events and Full Calendar
+# Upcoming Events
 
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.3"></script>
@@ -27,4 +27,8 @@ padding: 10px;
 </div>
 <div class='clear'></div>
 </div>
-Our general meetings are normally held on the second Sunday of each month. Unless otherwise noted, all events are open to non-members. Use our [iCal feed](https://calendar.google.com/calendar/ical/dsaportlandoregon%40gmail.com/public/basic.ics) to automatically include Portland DSA events in the calendar on your phone or computer.
+
+# Full Calendar
+
+
+Our general meetings are normally held on the second Sunday of each month. Unless otherwise noted, all events are open to non-members. Use our \[iCal feed](https://calendar.google.com/calendar/ical/dsaportlandoregon%40gmail.com/public/basic.ics) to automatically include Portland DSA events in the calendar on your phone or computer.
