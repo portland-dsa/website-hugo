@@ -23,7 +23,7 @@ padding: 10px;
 <div class='row'>
 <div class='widgets'><div class="fb-page" data-href="https://www.facebook.com/PortlandDSA/" data-tabs="events" data-width="450" data-height="375" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/PortlandDSA/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/PortlandDSA/">Portland Democratic Socialists of America</a></blockquote></div>
 </div>
-<div class='widgets'><a class="twitter-timeline" data-width="300" data-height="450" href="https://twitter.com/PortlandDSA?ref_src=twsrc%5Etfw">Tweets by PortlandDSA</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+<div class='widgets'><a class="twitter-timeline" data-width="450" data-height="375" href="https://twitter.com/PortlandDSA?ref_src=twsrc%5Etfw">Tweets by PortlandDSA</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 </div>
 <div class='clear'></div>
 </div>
