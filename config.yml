@@ -13,8 +13,8 @@ menu:
   - name: Legislative Tracker
     url: /legislative-tracker/
     weight: 40
-  - name: Calendar
-    url: /calendar/
+  - name: Eevnts
+    url: /events/
     weight: 50
   - name: Join us!
     url: /join/
