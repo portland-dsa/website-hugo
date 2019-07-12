@@ -1,5 +1,5 @@
 ---
-title: Calendar
+title: Events
 type: calendar
 callout: This is the calendar
 ---
