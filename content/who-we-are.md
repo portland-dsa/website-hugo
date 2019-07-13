@@ -13,7 +13,7 @@ The DSA has its roots in the Socialist Party of America (SPA), whose most promin
 
 ## WHAT KIND OF ORGANIZATION IS DSA?
 
-DSA is a nonprofit political organization, not a party. We are also a “big tent” organization, which means we are multi tenancy, have no litmus tests and are open to people from all corners of the socialist left who share our anti-capitalist vision for the liberation of all people from the systems of oppression empowered by the status quo. For the first time in over a generation, socialist ideas and movements are once again gaining ground and legitimacy in mainstream political discourse and setting the stage for real and meaningful change to take place in our society. Since the election of Donald Trump in 2016, DSA has grown exponentially from this shift of so many people away from the neo-liberal political center and towards the more radical socialist and progressive left.
+DSA is a nonprofit political organization, not a party. We are also a “big tent” organization, which means we are multi tenancy, have no litmus tests and are open to people from all corners of the socialist left who share our anti-capitalist vision for the liberation of all people from the systems of oppression empowered by the status quo. For the first time in over a generation, socialist ideas and movements are once again gaining ground and legitimacy in mainstream political discourse and setting the stage for real and meaningful change to take place in our society. Since the election of Donald Trump in 2016, DSA has grown exponentially from this shift of so many people away from the neo-liberal political center and towards the more radical socialist and progressive left. 
 
 ## WHAT ARE DSA'S GOALS?
 
@@ -30,7 +30,5 @@ While there are lots of different tendencies under the broad tent that is “soc
 * A society structured around inherent human equality and dignity which promotes and supports the prosperity and free development of all people.
 * Democratic worker control of a collective economy designed to meet human needs
 * Radical democracy where power is evenly and justly distributed and which grants everyone an equal voice in the decisions that affect their lives
-
-
 
 Want to hear more about our recent activities? Check out our local newsletter, _Bread and Rose City_: [Issue 001](https://portlanddsa.org/assets/images/uploads/bread-and-rose-city-001.pdf), [Issue 002](https://portlanddsa.org/assets/images/uploads/bread-and-rose-city-002.pdf), [Issue 002 Audio](https://soundcloud.com/portlanddsa/bread-rose-city-issue-002-winter-2019). Our local [bylaws](https://portlanddsa.org/assets/images/uploads/portland-dsa-bylaws.pdf) and grievance [contact](mailto:dsapdxgrievance@gmail.com) and [policy](https://portlanddsa.org/assets/images/uploads/portland-dsa-grievance-policy.pdf) are also available.
