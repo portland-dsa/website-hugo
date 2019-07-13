@@ -10,9 +10,10 @@ blocks:
     blockImage: /assets/images/uploads/whatisdemsoc.jpg
     blockTitle: What is Socialism?
   - blockContent: >-
-      From chapter meetings and happy hours to demonstrations, actions, and
-      community events,  there’s something for everyone. And it’s almost all
-      open to newcomers. [View our full calendar of events](/calendar/)
+      From general membership and working group meetings to happy hours and
+      community events to demonstrations and direct actions, there are a variety
+      of ways to get involved with the movement for a better world. [View our
+      calendar of upcoming events](/events/)
     blockImage: /assets/images/uploads/ttr.jpg
     blockTitle: Find Upcoming Events
   - blockContent: >-
