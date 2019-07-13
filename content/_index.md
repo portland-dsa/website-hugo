@@ -2,12 +2,13 @@
 title: Portland DSA
 blocks:
   - blockContent: >-
-      Democratic socialism is the political conviction that society should be
-      oriented to the common good by granting all members equal political and
-      economic power. [Learn more about democratic
-      socialism](/what-is-democratic-socialism/)
+      Socialism has many flavors, but broadly it is the political and moral
+      conviction that society should be oriented to the common good by granting
+      all members equal political and economic power and structuring society to
+      meet human needs rather than enriching an elite few. [Learn more about
+      socialism and Portland DSA](/what-is-democratic-socialism/)
     blockImage: /assets/images/uploads/whatisdemsoc.jpg
-    blockTitle: What's Democratic Socialism?
+    blockTitle: What is Socialism?
   - blockContent: >-
       From chapter meetings and happy hours to demonstrations, actions, and
       community events,  there’s something for everyone. And it’s almost all
