@@ -8,7 +8,7 @@ blocks:
     blockImage: /assets/images/uploads/whatisdemsoc.jpg
     blockTitle: Universal Preschool NOW!
   - blockContent: >-
-      Read informative articles and editorials from Portland DSA members. Hailing from all corners of the socialist left,       our goal is a better world beyond capitalism. [View our collection of Medium Posts(https://medium.com/@dsaportlandoregon)
+      Read informative articles and editorials from Portland DSA members. Hailing from all corners of the socialist left,       our goal         is a better world beyond capitalism. [View our collection of Medium Posts](https://medium.com/@dsaportlandoregon)
     blockImage: /assets/images/uploads/ttr.jpg
     blockTitle: Portland DSA Medium Articles
   - blockContent: >-
