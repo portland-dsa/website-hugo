@@ -1,5 +1,5 @@
 ---
-title: What We’re Up To
+title: What 
 blocks:
   - blockContent: >-
       Find out about our coalition calling for universal preschool for all 4-year-olds 
