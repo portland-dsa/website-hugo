@@ -7,8 +7,8 @@ menu:
   - name: Who we are
     url: /who-we-are/
     weight: 20
-  - name: What is democratic socialism?
-    url: /what-is-democratic-socialism/
+  - name: What We're Up To
+    url: /what-were-up-to/
     weight: 30
   - name: Legislative Tracker
     url: /legislative-tracker/
