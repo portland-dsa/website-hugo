@@ -56,9 +56,9 @@ collections:
           - {label: "Type", name: "type", widget: "hidden", default: "legtracker"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Callout", name: "callout", widget: "markdown"}
-      - file: "content/calendar.md"
-        label: "Calendar"
-        name: "calendar"
+      - file: "content/events.md"
+        label: "Events"
+        name: "events"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Type", name: "type", widget: "hidden", default: "calendar"}
