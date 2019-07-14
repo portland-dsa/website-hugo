@@ -43,4 +43,5 @@ Much of the unnecessary suffering that exists in the world today in the form of 
 
 Socialism isn't just concerned with the redistribution of wealth, but also the redistribution of political and economic power through the democratic ownership and control of the means of production used to generate economic wealth. Socialists believe that through an equal distribution of both economic and political power we can build a society that collectively meets the needs of all people in a way that is free of exploitation and oppression and that is sustainable for both people and planet alike. A world built for and by the many, not the few.
 
-[“What is democratic socialism?” / July 2018 Jacobin article by Neal Meyer](https://jacobinmag.com/2018/07/democratic-socialism-bernie-sanders-social-democracy-alexandria-ocasio-cortez), [“The ABCs of Socialism” / Jacobin article edited by Bhaskar Sunkara](https://s3.jacobinmag.com/issues/jacobin-abcs.pdf)
+“What is democratic socialism?” / [July 2018 Jacobin article by Neal Meyer](https://jacobinmag.com/2018/07/democratic-socialism-bernie-sanders-social-democracy-alexandria-ocasio-cortez), 
+“The ABCs of Socialism” / [Jacobin article edited by Bhaskar Sunkara](https://s3.jacobinmag.com/issues/jacobin-abcs.pdf)
