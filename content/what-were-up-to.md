@@ -1,8 +1,5 @@
 ---
 title: What We’re Up To
-type: about
-callout: Learn more about our ongoing campaingns, actions, and read our articles and newsletter
----
 blocks:
   - blockContent: >-
       Find out about our coalition calling for universal preschool for all 4-year-olds 
