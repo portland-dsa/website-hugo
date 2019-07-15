@@ -1,0 +1,24 @@
+
+{{ define "main" }}
+<div class="container">
+  <div class="intro">
+    {{ .Content }}
+  </div>
+</div>
+
+<div class="fullwidth-section">
+  {{ range .Params.blocks }}
+  <article class="topic-strip">
+    <div class="topic-strip__image">
+      <img src="{{ .blockImage }}" alt="Placeholder image">
+    </div>
+    <div class="topic-strip__content">
+      <h1 class="topic-strip__headline">{{ .blockTitle }}</h1>
+      <div class="topic-strip__text">
+        {{ .blockContent | markdownify }}
+      </div>
+    </div>
+  </article>
+  {{ end }}
+</div>
+{{ end }}
