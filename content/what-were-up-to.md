@@ -19,3 +19,4 @@ blocks:
     blockImage: /assets/images/uploads/dsasupersoliders.jpg
     blockTitle: Portland DSA Newsletter
 ---
+We are a local chapter of the **Democratic Socialists of America**, the largest socialist organization in the United States. We organize together for economic and social justice in Portland and beyond.
