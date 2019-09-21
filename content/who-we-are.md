@@ -19,7 +19,7 @@ DSA is a nonprofit political organization, not a party. We are also a “big ten
 
 We seek to build local, national, and international progressive mass movements for social justice and transformative change while also establishing an openly socialist presence in the Portland metro region. Our chapter is made up of both longtime organizers and people completely new to socialism and political engagement. As socialists we share a vision of a collective, sustainable and just society beyond the exploitation of the capitalist system; one based on radical democracy, public control of resources and production, economic planning to meet human needs, racial and gender equality, and the free development of all people.
 
-Here in Portland, we work toward those goals through a variety of labor, electoral, direct action, and mutual aid campaigns. We also organize educational events like panel discussions and book clubs, as well as happy hours and other social activities that help us connect and grow with other like-minded individuals. You can get a snapshot of what we're up to right now by looking through our calendar. For a more complete picture, check out the first two issues of our print newsletter and its 2017 precursor:
+Here in Portland, we work toward those goals through a variety of labor, electoral, direct action, and mutual aid campaigns. We also organize educational events like panel discussions and book clubs, as well as happy hours and other social activities that help us connect and grow with other like-minded individuals. You can get a snapshot of what we're up to right now by looking through our [calendar](https://portlanddsa.org/events/). For a more complete picture, check out the first two issues of our print newsletter and its 2017 precursor:
 
 * _Bread & Rose City Issue 2_ [PDF](https://portlanddsa.org/assets/images/uploads/bread-and-rose-city-001.pdf) [Audio](https://soundcloud.com/portlanddsa/bread-rose-city-issue-002-winter-2019)
 * _Bread & Rose City Issue 1_ [PDF](https://portlanddsa.org/assets/images/uploads/bread-and-rose-city-002.pdf)
@@ -50,6 +50,5 @@ Much of the unnecessary suffering that exists in the world today in the form of 
 Socialism isn't just concerned with the redistribution of wealth, but also the redistribution of political and economic power through the democratic ownership and control of the means of production used to generate economic wealth. Socialists believe that through an equal distribution of both economic and political power we can build a society that collectively meets the needs of all people in a way that is free of exploitation and oppression and that is sustainable for both people and planet alike. A world built for and by the many, not the few.
 
 “What is democratic socialism?” / [July 2018 Jacobin article by Neal Meyer](https://jacobinmag.com/2018/07/democratic-socialism-bernie-sanders-social-democracy-alexandria-ocasio-cortez)
-
 
 “The ABCs of Socialism” / [Jacobin article edited by Bhaskar Sunkara](https://s3.jacobinmag.com/issues/jacobin-abcs.pdf)
