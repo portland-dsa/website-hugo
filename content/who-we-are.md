@@ -3,9 +3,9 @@ title: Who We Are
 type: about
 callout: >-
   The Democratic Socialists of America is the United States’ largest socialist
-  organization with currently over 55,000 members nationally. The Portland
-  chapter presently has over 1,200 members. There are now DSA chapters in more
-  than 60 urban and rural regions across the country with more forming everyday.
+  organization with over 55,000 members currently. The Portland chapter
+  presently has over 1,200 members. There are now DSA chapters in more than 60
+  urban and rural regions across the country, with more forming every day.
 ---
 ## Some History...
 
@@ -19,6 +19,12 @@ DSA is a nonprofit political organization, not a party. We are also a “big ten
 
 We seek to build local, national, and international progressive mass movements for social justice and transformative change while also establishing an openly socialist presence in the Portland metro region. Our chapter is made up of both longtime organizers and people completely new to socialism and political engagement. As socialists we share a vision of a collective, sustainable and just society beyond the exploitation of the capitalist system; one based on radical democracy, public control of resources and production, economic planning to meet human needs, racial and gender equality, and the free development of all people.
 
+Here in Portland, we work toward those goals through a variety of labor, electoral, direct action, and mutual aid campaigns. We also organize educational events like panel discussions and book clubs, as well as happy hours and other social activities that help us connect and grow with other like-minded individuals. You can get a snapshot of what we're up to right now by looking through our calendar. For a more complete picture, check out the first two issues of our print newsletter and its 2017 precursor:
+
+* _Bread & Rose City Issue 2_ [PDF](https://portlanddsa.org/assets/images/uploads/bread-and-rose-city-001.pdf) [Audio](https://soundcloud.com/portlanddsa/bread-rose-city-issue-002-winter-2019)
+* _Bread & Rose City Issue 1_ [PDF](https://portlanddsa.org/assets/images/uploads/bread-and-rose-city-002.pdf)
+* _2017 Year in Review_ [PDF](https://portlanddsa.org/assets/images/uploads/portland-dsa-2017-review.pdf)
+
 ## OK, But What Exactly is Socialism?
 
 Glad you asked. Despite socialism's re-emergent and growing popularity in U.S. politics and culture, many people still struggle with a consistent answer to this question. This shouldn't be too surprising though, since in the wake of decades of anti-communist cold war rhetoric most of the information floating around the mainstream media about what defines “socialism” spans from misinformed to flat out wrong.
@@ -27,11 +33,11 @@ It is often ignored or disregarded that the broad ideas of socialism -- ideas pr
 
 While there are lots of different tendencies under the broad tent that is “socialism” there is a common understanding among all of them that socialism is a system based on:
 
-* A society structured around inherent human equality and dignity which promotes and supports the prosperity and free development of all people.
+* A society structured around inherent human equality and dignity which promotes and supports the prosperity and free development of all people
 * Democratic worker control of a collective economy designed to meet human needs
 * Radical democracy where power is evenly and justly distributed and which grants everyone an equal voice in the decisions that affect their lives
 
-Understanding why socialism is opposed to capitalism, a privatized economic system driven profit, is about understanding the relationship between power and class, and how political power is connected with economic power. Economics is how a society produces and distributes the things it wants and needs, so that means there is a lot of power in being able to determine how economic decisions are made and how wealth and resources are distributed.
+Understanding why socialism is opposed to capitalism, a privatized economic system driven by profit, is about understanding the relationship between power and class, and how political power is connected with economic power. Economics is how a society produces and distributes the things it wants and needs, so that means there is a lot of power in being able to determine how economic decisions are made and how wealth and resources are distributed.
 
 The economic power dynamics of a capitalist society is that the ruling class, the capitalist class, profits from the wealth produced by the physical, mental and emotional labor of the less powerful class doing all the work, the working class. This is because capitalists privately own the economic resources needed to produce things, also called the means of production, while the workers only own their labor and whatever they are able to buy with the wages made from selling that labor.
 
@@ -43,5 +49,7 @@ Much of the unnecessary suffering that exists in the world today in the form of 
 
 Socialism isn't just concerned with the redistribution of wealth, but also the redistribution of political and economic power through the democratic ownership and control of the means of production used to generate economic wealth. Socialists believe that through an equal distribution of both economic and political power we can build a society that collectively meets the needs of all people in a way that is free of exploitation and oppression and that is sustainable for both people and planet alike. A world built for and by the many, not the few.
 
-“What is democratic socialism?” / [July 2018 Jacobin article by Neal Meyer](https://jacobinmag.com/2018/07/democratic-socialism-bernie-sanders-social-democracy-alexandria-ocasio-cortez), 
+“What is democratic socialism?” / [July 2018 Jacobin article by Neal Meyer](https://jacobinmag.com/2018/07/democratic-socialism-bernie-sanders-social-democracy-alexandria-ocasio-cortez)
+
+
 “The ABCs of Socialism” / [Jacobin article edited by Bhaskar Sunkara](https://s3.jacobinmag.com/issues/jacobin-abcs.pdf)
