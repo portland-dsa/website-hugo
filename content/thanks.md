@@ -27,7 +27,7 @@ callout: >-
 
 ## Stay connected
 
-* **Join a Campaign**: Get involved with campaigns like Universal Preschool Now, Amazon Workers Solidarity, Tax the Rich, and Medicare for All. For more
+* **Join a Campaign**: Get involved with campaigns like Universal Preschool NOW!, Amazon Workers Solidarity, Tax the Rich, and Medicare for All. For more
   information, please email <mailto:info@portlanddsa.org> and a fellow comrade will be in-touch soon.
 * **Get Social**: Follow and like DSA Portland on social media to stay up to date on campaigns and meetings. [Facebook](https://www.facebook.com/PortlandDSA/)-[Twitter](https://twitter.com/PortlandDSA)-[Instagram](https://www.instagram.com/portlanddsa/)
 * **Subscribe**: Stay up to date with the [Portland DSA Newsletter](https://sibforms.com/serve/MUIEAFKReA6mXsCyKinBbEQp9k7fjWknzKeNSh5bGgNVNSQkMG28nlXiIWkb1ni56eH_A8014vqf3lISOqJZCG4XpO3wqhmpqUFD9KSU-xPsjPQg136NYT7EptHGyobB31cGaAAtf0lPB1bK9YPTYURVjtqX1JbtwABzQ0mjvlJ3V5EPOIlzpUETj-EMyiomkawLG4DOrCznS3Xc).
