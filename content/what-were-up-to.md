@@ -1,6 +1,8 @@
 ---
 title: What We're Up To
-callout: Our Chapter Has Been Busy This Year!
+type: about
+callout: >- 
+Our Chapter Has Been Busy This Year!
 ---
 # Campaigns:
 ## Universal Preschool Now
