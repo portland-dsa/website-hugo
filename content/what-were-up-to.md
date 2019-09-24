@@ -1,6 +1,6 @@
 ---
 title: What We're Up To
-type: what
+type: about
 callout: >- 
 Our Chapter has Been Busy This Year!
 ---
