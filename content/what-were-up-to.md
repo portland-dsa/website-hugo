@@ -17,4 +17,5 @@ Everyone deserves the opportunity to thrive. Universal preschool addresses a fun
 Our vision for universal preschool:
 
 * Ensures that all kids can have the play-based, culturally responsive and inclusive care they deserve.
+* Gives caregivers of young children the opportunity to work or go to school.
 *
