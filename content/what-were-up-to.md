@@ -18,4 +18,5 @@ Our vision for universal preschool:
 
 * Ensures that all kids can have the play-based, culturally responsive and inclusive care they deserve.
 * Gives caregivers of young children the opportunity to work or go to school.
-*
+* Provides a way to pay preschool and childcare workers living wages.
+* Builds the political support to sustain funding for a strong preschool program and creates momentum to expand it to younger and older children.
