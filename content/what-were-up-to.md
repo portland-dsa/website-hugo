@@ -1,8 +1,6 @@
 ---
 title: What We're Up To
-type: what
-callout: >-
-Our Chapter Has Been Busy This Year!
+callout: Our Chapter Has Been Busy This Year!
 ---
 # Campaigns:
 
