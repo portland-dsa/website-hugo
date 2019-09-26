@@ -33,9 +33,9 @@ Our campaign is aimed at educating, supporting, and helping workers in whatever 
 
 ## Educational Videos
 
-* What is Socialism 101 (link): An introductory video series to Democratic Socialism
-* Portland DSA Red Talks (link): Short lectures given at DSA general meetings on a variety of topics of the Red persuasion
+* [What is Socialism 101] (https://youtu.be/LmOzbeaYHNQ): An introductory video series to Democratic Socialism
+* [Portland DSA Red Talks] (https://youtu.be/fCUAIjyoI5Q): Short lectures given at DSA general meetings on a variety of topics of the Red persuasion
 
 ## Portland DSA Medium Articles
 
-(link)Short articles written by the membership on important topics and causes
+Short [articles] (https://medium.com/@dsaportlandoregon) written by the membership on important topics and causes
