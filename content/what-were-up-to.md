@@ -38,4 +38,4 @@ Our campaign is aimed at educating, supporting, and helping workers in whatever 
 
 ## Portland DSA Medium Articles
 
-(link)Short articles written by the membership on important topics and causes
+Short [articles] (https://medium.com/@dsaportlandoregon) written by the membership on important topics and causes
