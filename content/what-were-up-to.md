@@ -4,6 +4,14 @@ callout: Our Chapter Has Been Busy This Year!
 ---
 # Campaigns:
 
+## Paige Kreisman for Oregon House District 42
+
+Portland DSA has endorsed Paige Kreisman for the Oregon House of Representatives, District 42 for the 2020 Democratic primary and general elections. Paige serves as Portland DSA’s electoral and legislative co-chair and a board member for [Portland Tenants United](https://www.pdxtu.org/). She is a disabled veteran and the first trans woman to run for the state legislature in Oregon’s 160 year history.
+
+Paige grew up in rural North Carolina, in an abusive, transphobic, evangelical baptist home. At seventeen she joined the US Army to escape her family, where she became the first woman to serve as an Indirect Fire Infantryman, a combat job previously open only to men. Paige deployed to Kuwait and Qatar, where her experiences enforcing US imperialism formed the socialist and anti-imperialist values that guide her today. After the election of Donald Trump, and facing increasing violance, harrasment, and discrimination, Paige made the decision to refuse to carry out any further military duties in protest of US imperialist forign policy, and systemic discrimination against trans service members. She was imprisoned for two months before being forced out of the military following Trump’s trans military ban. She used her GI bill to attend Oregon State University in Corvallis, where she served as co-chair of the Benton County DSA chapter, before settling in Northeast Portland, where she now makes her home. 
+
+Paige is committed to fighting for democratic socialist values and policies in the Oregon House of Representatives. She is calling for an Oregon Green New Deal, comprehensive campaign finance reform, housing justice policies, and to defend Oregon’s public employees and unions. Paige is running a 100% people powered campaign, with no corporate money accepted. You can learn more and support her at [Paige2020.com](https://www.paige2020.com/)!
+
 ## Universal Preschool Now
 
 What if every family was guaranteed high-quality preschool, regardless of their ability to pay? Would it transform your life, or that of someone you know? This can be a reality — from Chicago to Denver to New York City, universal preschool programs are being successfully implemented nationwide. With your support, Multnomah County could vote for universal preschool in November 2020!
@@ -33,9 +41,9 @@ Our campaign is aimed at educating, supporting, and helping workers in whatever 
 
 ## Educational Videos
 
-* [What is Socialism 101] (https://youtu.be/LmOzbeaYHNQ): An introductory video series to Democratic Socialism
-* [Portland DSA Red Talks] (https://youtu.be/fCUAIjyoI5Q): Short lectures given at DSA general meetings on a variety of topics of the Red persuasion
+* [What is Socialism 101](https://youtu.be/LmOzbeaYHNQ): An introductory video series to Democratic Socialism
+* [Portland DSA Red Talks](https://youtu.be/fCUAIjyoI5Q): Short lectures given at DSA general meetings on a variety of topics of the Red persuasion
 
 ## Portland DSA Medium Articles
 
-Short [articles] (https://medium.com/@dsaportlandoregon) written by the membership on important topics and causes
+Short [articles](https://medium.com/@dsaportlandoregon) written by the membership on important topics and causes
