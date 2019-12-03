@@ -21,8 +21,8 @@ We seek to build local, national, and international progressive mass movements f
 
 Here in Portland, we work toward those goals through a variety of labor, electoral, direct action, and mutual aid campaigns. We also organize educational events like panel discussions and book clubs, as well as happy hours and other social activities that help us connect and grow with other like-minded individuals. You can get a snapshot of what we're up to right now by looking through our [calendar](https://portlanddsa.org/events/). For a more complete picture, check out the first two issues of our print newsletter and its 2017 precursor:
 
-* _Bread & Rose City Issue 2_ [PDF](https://portlanddsa.org/assets/images/uploads/bread-and-rose-city-001.pdf) [Audio](https://soundcloud.com/portlanddsa/bread-rose-city-issue-002-winter-2019)
-* _Bread & Rose City Issue 1_ [PDF](https://portlanddsa.org/assets/images/uploads/bread-and-rose-city-002.pdf)
+* _Bread & Rose City Issue 2_ [PDF](< https://portlanddsa.org/assets/images/uploads/bread-and-rose-city-002.pdf>) [Audio](https://soundcloud.com/portlanddsa/bread-rose-city-issue-002-winter-2019)
+* _Bread & Rose City Issue 1_ [PDF](< https://portlanddsa.org/assets/images/uploads/bread-and-rose-city-001.pdf>)
 * _2017 Year in Review_ [PDF](https://portlanddsa.org/assets/images/uploads/portland-dsa-2017-review.pdf)
 
 ## OK, But What Exactly is Socialism?
