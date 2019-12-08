@@ -12,6 +12,10 @@ Paige grew up in rural North Carolina, in an abusive, transphobic, evangelical b
 
 Paige is committed to fighting for democratic socialist values and policies in the Oregon House of Representatives. She is calling for an Oregon Green New Deal, comprehensive campaign finance reform, housing justice policies, and to defend Oregon’s public employees and unions. Paige is running a 100% people powered campaign, with no corporate money accepted. You can learn more and support her at [Paige2020.com](https://www.paige2020.com/)!
 
+## Albert Lee 2020 for Congress OR-03
+
+I’m not a professional politician—I’m an Oregonian who comes from humble beginnings who has a passion for bringing people together and the drive to tackle difficult problems with both creativity and tenacity. I am running for Congress because we need bold action, not just incremental steps to combat the crises we face. I love our state and our country. I want to face the challenges of the future head-on, proactively, so that we can reach our true potential as a nation. Join me in moving forward, together. Learn more at [albertlee2020.com](albertlee2020.com).
+
 ## Universal Preschool Now
 
 What if every family was guaranteed high-quality preschool, regardless of their ability to pay? Would it transform your life, or that of someone you know? This can be a reality — from Chicago to Denver to New York City, universal preschool programs are being successfully implemented nationwide. With your support, Multnomah County could vote for universal preschool in November 2020!
